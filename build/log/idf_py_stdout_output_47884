@@ -1,0 +1,78 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/vl/esp32/project_my/esp32s3_lvgl/build/bootloader/esp-idf/esptool_py && /home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/vl/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/vl/esp32/project_my/esp32s3_lvgl/build/bootloader/bootloader.bin
+Bootloader binary size 0x5240 bytes. 0x2dc0 bytes (36%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp32s3_lvgl.c.obj
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable esp32s3_lvgl.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/vl/esp32/project_my/esp32s3_lvgl/build/esp32s3_lvgl.bin
+[9/10] cd /home/vl/esp32/project_my/esp32s3_lvgl/build/esp-idf/esptool_py && /home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/vl/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/vl/esp32/project_my/esp32s3_lvgl/build/partition_table/partition-table.bin /home/vl/esp32/project_my/esp32s3_lvgl/build/esp32s3_lvgl.bin
+esp32s3_lvgl.bin binary size 0xae5b0 bytes. Smallest app partition is 0x800000 bytes. 0x751a50 bytes (91%) free.
+[9/10] cd /home/vl/esp32/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/vl/esp32/esp-idf -D "SERIAL_TOOL=/home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python;;/home/vl/esp32/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/vl/esp32/project_my/esp32s3_lvgl/build -P /home/vl/esp32/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 16MB 0x0 bootloader/bootloader.bin 0x10000 esp32s3_lvgl.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port /dev/ttyACM0
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 30:ed:a0:29:9f:94
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x000befff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 21056 bytes to 13064...
+Writing at 0x00000000... (100 %)
+Wrote 21056 bytes (13064 compressed) at 0x00000000 in 0.4 seconds (effective 421.8 kbit/s)...
+Hash of data verified.
+Compressed 714160 bytes to 454042...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001d0ff... (7 %)
+Writing at 0x00025699... (10 %)
+Writing at 0x0002ddc8... (14 %)
+Writing at 0x00032c48... (17 %)
+Writing at 0x00038ff4... (21 %)
+Writing at 0x0003f1e6... (25 %)
+Writing at 0x00044bde... (28 %)
+Writing at 0x0004a906... (32 %)
+Writing at 0x00050ba4... (35 %)
+Writing at 0x00056401... (39 %)
+Writing at 0x0005c382... (42 %)
+Writing at 0x00061b51... (46 %)
+Writing at 0x00066a9d... (50 %)
+Writing at 0x0006bba0... (53 %)
+Writing at 0x00072110... (57 %)
+Writing at 0x00079991... (60 %)
+Writing at 0x00080195... (64 %)
+Writing at 0x00087cb2... (67 %)
+Writing at 0x0008f6cb... (71 %)
+Writing at 0x00094c29... (75 %)
+Writing at 0x00098e26... (78 %)
+Writing at 0x0009d071... (82 %)
+Writing at 0x000a12c3... (85 %)
+Writing at 0x000a54d2... (89 %)
+Writing at 0x000ad6fc... (92 %)
+Writing at 0x000b33ab... (96 %)
+Writing at 0x000b9ac9... (100 %)
+Wrote 714160 bytes (454042 compressed) at 0x00010000 in 5.7 seconds (effective 994.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.1 seconds (effective 382.0 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

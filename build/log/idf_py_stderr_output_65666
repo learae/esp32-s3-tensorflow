@@ -1,0 +1,5 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x42008b09: s_test_psram at /home/vl/esp32/esp-idf/components/esp_psram/esp_psram.c:405
+[0m
+[0m

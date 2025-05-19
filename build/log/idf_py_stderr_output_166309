@@ -1,0 +1,10 @@
+CMake Error at /home/vl/esp32/esp-idf/tools/cmake/build.cmake:268 (message):
+  Failed to resolve component 'esp32_camera'.
+Call Stack (most recent call first):
+  /home/vl/esp32/esp-idf/tools/cmake/build.cmake:304 (__build_resolve_and_add_req)
+  /home/vl/esp32/esp-idf/tools/cmake/build.cmake:599 (__build_expand_requirements)
+  /home/vl/esp32/esp-idf/tools/cmake/project.cmake:605 (idf_build_process)
+  CMakeLists.txt:10 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

@@ -1,0 +1,12 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x42008eb5: s_test_psram at /home/vl/esp32/esp-idf/components/esp_psram/esp_psram.c:405
+[0m
+[0;33m--- 0x4203912b: task_wdt_timeout_handling at /home/vl/esp32/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x42039548: task_wdt_isr at /home/vl/esp32/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x403776ed: _xt_lowint1 at /home/vl/esp32/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x4037f06e: vTaskDelay at /home/vl/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1561 (discriminator 1)
+0x420309d0: camera_task at /home/vl/esp32/project_my/esp32s3_lvgl/components/bsp/ov5640.c:133
+0x4037d4f9: vPortTaskWrapper at /home/vl/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

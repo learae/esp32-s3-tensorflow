@@ -1,0 +1,667 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40041a79: ets_delay_us in ROM
+[0m
+[1;31m--- Error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+[0m
+[0;33m--- 0x40375c26: panic_abort at /home/vl/esp32/esp-idf/components/esp_system/panic.c:472
+0x4037c6cd: esp_system_abort at /home/vl/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383fc9: abort at /home/vl/esp32/esp-idf/components/newlib/abort.c:38
+0x40375674: call_start_cpu0 at /home/vl/esp32/esp-idf/components/esp_system/port/cpu_start.c:556
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375b9c: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

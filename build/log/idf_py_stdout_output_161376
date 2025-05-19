@@ -1,0 +1,13 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Optional dependency "espressif/esp_lcd_touch" of "espressif/esp_lcd_touch_cst816s (1.0.5)" is not present in the lock file, solving dependencies.
+NOTICE: Updating lock file at /home/vl/esp32/project_my/esp32s3_lvgl/dependencies.lock
+NOTICE: Deleting 1 unused components
+NOTICE:  espressif__esp32-camera
+NOTICE: Processing 1 dependencies:
+NOTICE: [1/1] idf (5.2.0)
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/home/vl/esp32/project_my/esp32s3_lvgl -B/home/vl/esp32/project_my/esp32s3_lvgl/build

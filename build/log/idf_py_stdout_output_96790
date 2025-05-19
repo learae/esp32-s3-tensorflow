@@ -1,0 +1,559 @@
+[0;32mI (123) esp_image: segment 1: paddr=0002cc0c vaddr=3fc965ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x28 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x42008b61
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d98
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May  6 2025 12:17:23[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00c00000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c070020 size=1cbe4h (117732) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0002cc0c vaddr=3fc96500 size=0340ch ( 13324) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=6af18h (438040) map[0m
+[0;32mI (205) esp_image: segment 3: paddr=0009af40 vaddr=3fc9990c size=1a20ch (107020) load[0m
+[0;32mI (226) esp_image: segment 4: paddr=000b5154 vaddr=40374000 size=124dch ( 74972) load[0m
+[0;32mI (256) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (256) boot: Disabling RNG early entropy source...[0m
+[0;32mI (268) cpu_start: Multicore app[0m
+[0;32mI (268) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (268) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (271) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (277) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (282) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (287) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (292) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (298) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (304) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (309) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (316) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (321) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (325) esp_psram: Speed: 40MHz[0m
+[0;32mI (1060) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1069) cpu_start: Pro cpu start user code[0m
+[0;32mI (1070) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (1070) cpu_start: Application information:[0m
+[0;32mI (1073) cpu_start: Project name:     esp32s3_lvgl[0m
+[0;32mI (1078) cpu_start: App version:      1[0m
+[0;32mI (1083) cpu_start: Compile time:     May 11 2025 11:12:29[0m
+[0;32mI (1089) cpu_start: ELF file SHA256:  9171d73be...[0m
+[0;32mI (1094) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (1099) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (1104) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (1109) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (1114) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1121) heap_init: At 3FCB4D80 len 00034990 (210 KiB): RAM[0m
+[0;32mI (1127) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1133) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1140) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (1146) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1154) spi_flash: detected chip: winbond[0m
+[0;32mI (1158) spi_flash: flash io: dio[0m
+[0;33mW (1162) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (1173) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1180) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1188) main_task: Started on CPU0[0m
+[0;32mI (1198) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1198) main_task: Calling app_main()[0m
+[0;32mI (1208) lvgl_example: SPI BUS init[0m
+[0;32mI (1208) lvgl_example: Install panel IO[0m
+[0;32mI (1218) gpio: GPIO[42]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1228) lvgl_example: Install ST7789 panel driver[0m
+[0;32mI (1348) cst816t: 	Chip ID: 0xb6[0m
+[0;32mI (1348) cst816t: 	Firmware version: 0x01[0m
+[0;32mI (1348) cst816t: 	Factory ID: 0x04[0m
+[0;32mI (1348) lvgl_example: Install LVGL tick timer[0m
+[0;32mI (1348) lvgl_example: LCD brightness set to 80%[0m
+[0;32mI (1358) s3 ll_cam: DMA Channel=1[0m
+[0;32mI (1358) cam_hal: cam init ok[0m
+[0;32mI (1368) sccb: pin_sda 21 pin_scl 16[0m
+[0;32mI (1368) sccb: sccb_i2c_port=1[0m
+[0;32mI (1378) gpio: GPIO[17]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1408) camera: Detected camera at address=0x3c[0m
+[0;32mI (1408) ov3660: Mismatch PID=0x5640[0m
+[0;32mI (1408) camera: Detected OV5640 camera[0m
+[0;32mI (1408) camera: Camera PID=0x5640 VER=0x00 MIDL=0x00 MIDH=0x00[0m
+[0;32mI (2098) s3 ll_cam: node_size: 3840, nodes_per_line: 1, lines_per_node: 4[0m
+[0;32mI (2098) s3 ll_cam: dma_half_buffer_min:  3840, dma_half_buffer: 15360, lines_per_half_buffer: 16, dma_buffer_size: 30720[0m
+[0;32mI (2098) cam_hal: buffer_size: 30720, half_buffer_size: 15360, node_buffer_size: 3840, node_cnt: 8, total_cnt: 20[0m
+[0;32mI (2108) cam_hal: Allocating 307200 Byte frame buffer in PSRAM[0m
+[0;32mI (2118) cam_hal: cam config ok[0m
+[0;32mI (2138) ov5640: Set PLL: bypass: 0, multiplier: 8, sys_div: 1, pre_div: 1, root_2x: 0, pclk_root_div: 1, pclk_manual: 1, pclk_div: 4[0m
+[0;32mI (2138) ov5640: Calculated XVCLK: 20000000 Hz, REFIN: 20000000 Hz, VCO: 160000000 Hz, PLL_CLK: 64000000 Hz, SYSCLK: 16000000 Hz, PCLK: 8000000 Hz[0m
+[0;32mI (2178) tensorflow: Starting TensorFlow Lite Micro task...[0m
+[0;32mI (2178) tensorflow: Model size[0m
+[0;32mI (2178) tensorflow: input dims: 1 100 100 3[0m
+[0;32mI (2188) tensorflow: input type: 1, input bytes: 120000[0m
+[0;32mI (2188) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (2188) tensorflow: img_get[0m
+[0;32mI (2198) lvgl_example: tensorflow_task created successfully[0m
+[0;32mI (2198) main_task: Returned from app_main()[0m
+[0;31mE (2488) camera: img_get_float[0m
+[0;32mI (2758) tensorflow: img_get done[0m
+[0;32mI (3338) tensorflow: Output tensor[0m
+[0;32mI (3338) tensorflow: 香蕉[0m
+[0;32mI (4338) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (4338) tensorflow: img_get[0m
+[0;31mE (4518) camera: img_get_float[0m
+[0;32mI (4788) tensorflow: img_get done[0m
+[0;32mI (5368) tensorflow: Output tensor[0m
+[0;32mI (5368) tensorflow: 香蕉[0m
+[0;32mI (6368) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (6368) tensorflow: img_get[0m
+[0;31mE (6548) camera: img_get_float[0m
+[0;32mI (6818) tensorflow: img_get done[0m
+[0;32mI (7398) tensorflow: Output tensor[0m
+[0;32mI (7398) tensorflow: 香蕉[0m
+[0;32mI (8398) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (8398) tensorflow: img_get[0m
+[0;31mE (8578) camera: img_get_float[0m
+[0;32mI (8848) tensorflow: img_get done[0m
+[0;32mI (9428) tensorflow: Output tensor[0m
+[0;32mI (9428) tensorflow: 苹果[0m
+[0;32mI (10428) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (10428) tensorflow: img_get[0m
+[0;31mE (10608) camera: img_get_float[0m
+[0;32mI (10878) tensorflow: img_get done[0m
+[0;32mI (11458) tensorflow: Output tensor[0m
+[0;32mI (11458) tensorflow: 苹果[0m
+[0;32mI (12458) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (12458) tensorflow: img_get[0m
+[0;31mE (12648) camera: img_get_float[0m
+[0;32mI (12908) tensorflow: img_get done[0m
+[0;32mI (13488) tensorflow: Output tensor[0m
+[0;32mI (13488) tensorflow: 苹果[0m
+[0;32mI (14488) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (14488) tensorflow: img_get[0m
+[0;31mE (14678) camera: img_get_float[0m
+[0;32mI (14938) tensorflow: img_get done[0m
+[0;32mI (15518) tensorflow: Output tensor[0m
+[0;32mI (15518) tensorflow: 橘子[0m
+[0;32mI (16518) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (16518) tensorflow: img_get[0m
+[0;31mE (16708) camera: img_get_float[0m
+[0;32mI (16968) tensorflow: img_get done[0m
+[0;32mI (17548) tensorflow: Output tensor[0m
+[0;32mI (17548) tensorflow: 香蕉[0m
+[0;32mI (18548) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (18548) tensorflow: img_get[0m
+[0;31mE (18738) camera: img_get_float[0m
+[0;32mI (18998) tensorflow: img_get done[0m
+[0;32mI (19578) tensorflow: Output tensor[0m
+[0;32mI (19578) tensorflow: 香蕉[0m
+[0;32mI (20578) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (20578) tensorflow: img_get[0m
+[0;31mE (20768) camera: img_get_float[0m
+[0;32mI (21028) tensorflow: img_get done[0m
+[0;32mI (21608) tensorflow: Output tensor[0m
+[0;32mI (21608) tensorflow: 香蕉[0m
+[0;32mI (22608) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (22608) tensorflow: img_get[0m
+[0;31mE (22798) camera: img_get_float[0m
+[0;32mI (23058) tensorflow: img_get done[0m
+[0;32mI (23638) tensorflow: Output tensor[0m
+[0;32mI (23638) tensorflow: 香蕉[0m
+[0;32mI (24638) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (24638) tensorflow: img_get[0m
+[0;31mE (25048) camera: img_get_float[0m
+[0;32mI (25308) tensorflow: img_get done[0m
+[0;32mI (25898) tensorflow: Output tensor[0m
+[0;32mI (25898) tensorflow: 香蕉[0m
+[0;32mI (26898) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (26898) tensorflow: img_get[0m
+[0;31mE (27078) camera: img_get_float[0m
+[0;32mI (27338) tensorflow: img_get done[0m
+[0;32mI (27928) tensorflow: Output tensor[0m
+[0;32mI (27928) tensorflow: 香蕉[0m
+[0;32mI (28928) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (28928) tensorflow: img_get[0m
+[0;31mE (29108) camera: img_get_float[0m
+[0;32mI (29378) tensorflow: img_get done[0m
+[0;32mI (29958) tensorflow: Output tensor[0m
+[0;32mI (29958) tensorflow: 香蕉[0m
+[0;32mI (30958) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (30958) tensorflow: img_get[0m
+[0;31mE (31138) camera: img_get_float[0m
+[0;32mI (31408) tensorflow: img_get done[0m
+[0;32mI (31988) tensorflow: Output tensor[0m
+[0;32mI (31988) tensorflow: 香蕉[0m
+[0;32mI (32988) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (32988) tensorflow: img_get[0m
+[0;31mE (33168) camera: img_get_float[0m
+[0;32mI (33438) tensorflow: img_get done[0m
+[0;32mI (34018) tensorflow: Output tensor[0m
+[0;32mI (34018) tensorflow: 香蕉[0m
+[0;32mI (35018) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (35018) tensorflow: img_get[0m
+[0;31mE (35198) camera: img_get_float[0m
+[0;32mI (35468) tensorflow: img_get done[0m
+[0;32mI (36048) tensorflow: Output tensor[0m
+[0;32mI (36048) tensorflow: 香蕉[0m
+[0;32mI (37048) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (37048) tensorflow: img_get[0m
+[0;31mE (37228) camera: img_get_float[0m
+[0;32mI (37498) tensorflow: img_get done[0m
+[0;32mI (38078) tensorflow: Output tensor[0m
+[0;32mI (38078) tensorflow: 香蕉[0m
+[0;32mI (39078) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (39078) tensorflow: img_get[0m
+[0;31mE (39258) camera: img_get_float[0m
+[0;32mI (39528) tensorflow: img_get done[0m
+[0;32mI (40108) tensorflow: Output tensor[0m
+[0;32mI (40108) tensorflow: 香蕉[0m
+[0;32mI (41108) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (41108) tensorflow: img_get[0m
+[0;31mE (41288) camera: img_get_float[0m
+[0;32mI (41558) tensorflow: img_get done[0m
+[0;32mI (42138) tensorflow: Output tensor[0m
+[0;32mI (42138) tensorflow: 香蕉[0m
+[0;32mI (43138) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (43138) tensorflow: img_get[0m
+[0;31mE (43318) camera: img_get_float[0m
+[0;32mI (43588) tensorflow: img_get done[0m
+[0;32mI (44168) tensorflow: Output tensor[0m
+[0;32mI (44168) tensorflow: 香蕉[0m
+[0;32mI (45168) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (45168) tensorflow: img_get[0m
+[0;31mE (45348) camera: img_get_float[0m
+[0;32mI (45618) tensorflow: img_get done[0m
+[0;32mI (46198) tensorflow: Output tensor[0m
+[0;32mI (46198) tensorflow: 橘子[0m
+[0;32mI (47198) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (47198) tensorflow: img_get[0m
+[0;31mE (47378) camera: img_get_float[0m
+[0;32mI (47648) tensorflow: img_get done[0m
+[0;32mI (48228) tensorflow: Output tensor[0m
+[0;32mI (48228) tensorflow: 香蕉[0m
+[0;32mI (49228) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (49228) tensorflow: img_get[0m
+[0;31mE (49408) camera: img_get_float[0m
+[0;32mI (49678) tensorflow: img_get done[0m
+[0;32mI (50258) tensorflow: Output tensor[0m
+[0;32mI (50258) tensorflow: 香蕉[0m
+[0;32mI (51258) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (51258) tensorflow: img_get[0m
+[0;31mE (51438) camera: img_get_float[0m
+[0;32mI (51708) tensorflow: img_get done[0m
+[0;32mI (52288) tensorflow: Output tensor[0m
+[0;32mI (52288) tensorflow: 橘子[0m
+[0;32mI (53288) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (53288) tensorflow: img_get[0m
+[0;31mE (54148) camera: img_get_float[0m
+[0;32mI (54408) tensorflow: img_get done[0m
+[0;32mI (54998) tensorflow: Output tensor[0m
+[0;32mI (54998) tensorflow: 香蕉[0m
+[0;32mI (55998) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (55998) tensorflow: img_get[0m
+[0;31mE (57988) camera: img_get_float[0m
+[0;32mI (58248) tensorflow: img_get done[0m
+[0;32mI (58828) tensorflow: Output tensor[0m
+[0;32mI (58828) tensorflow: 香蕉[0m
+[0;32mI (59828) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (59828) tensorflow: img_get[0m
+[0;31mE (62048) camera: img_get_float[0m
+[0;32mI (62308) tensorflow: img_get done[0m
+[0;32mI (62888) tensorflow: Output tensor[0m
+[0;32mI (62888) tensorflow: 橘子[0m
+[0;32mI (63888) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (63888) tensorflow: img_get[0m
+[0;31mE (66108) camera: img_get_float[0m
+[0;32mI (66368) tensorflow: img_get done[0m
+[0;32mI (66948) tensorflow: Output tensor[0m
+[0;32mI (66958) tensorflow: 橘子[0m
+[0;32mI (67958) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (67958) tensorflow: img_get[0m
+[0;31mE (69938) camera: img_get_float[0m
+[0;32mI (70198) tensorflow: img_get done[0m
+[0;32mI (70788) tensorflow: Output tensor[0m
+[0;32mI (70788) tensorflow: 香蕉[0m
+[0;32mI (71788) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (71788) tensorflow: img_get[0m
+[0;31mE (72418) camera: img_get_float[0m
+[0;32mI (72678) tensorflow: img_get done[0m
+[0;32mI (73268) tensorflow: Output tensor[0m
+[0;32mI (73268) tensorflow: 香蕉[0m
+[0;32mI (74268) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (74268) tensorflow: img_get[0m
+[0;31mE (74448) camera: img_get_float[0m
+[0;32mI (74708) tensorflow: img_get done[0m
+[0;32mI (75298) tensorflow: Output tensor[0m
+[0;32mI (75298) tensorflow: 橘子[0m
+[0;32mI (76298) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (76298) tensorflow: img_get[0m
+[0;31mE (76478) camera: img_get_float[0m
+[0;32mI (76738) tensorflow: img_get done[0m
+[0;32mI (77328) tensorflow: Output tensor[0m
+[0;32mI (77328) tensorflow: 苹果[0m
+[0;32mI (78328) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (78328) tensorflow: img_get[0m
+[0;31mE (78508) camera: img_get_float[0m
+[0;32mI (78768) tensorflow: img_get done[0m
+[0;32mI (79358) tensorflow: Output tensor[0m
+[0;32mI (79358) tensorflow: 苹果[0m
+[0;32mI (80358) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (80358) tensorflow: img_get[0m
+[0;31mE (80538) camera: img_get_float[0m
+[0;32mI (80808) tensorflow: img_get done[0m
+[0;32mI (81388) tensorflow: Output tensor[0m
+[0;32mI (81388) tensorflow: 橘子[0m
+[0;32mI (82388) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (82388) tensorflow: img_get[0m
+[0;31mE (83928) camera: img_get_float[0m
+[0;32mI (84188) tensorflow: img_get done[0m
+[0;32mI (84768) tensorflow: Output tensor[0m
+[0;32mI (84778) tensorflow: 苹果[0m
+[0;32mI (85778) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (85778) tensorflow: img_get[0m
+[0;31mE (87758) camera: img_get_float[0m
+[0;32mI (88018) tensorflow: img_get done[0m
+[0;32mI (88608) tensorflow: Output tensor[0m
+[0;32mI (88608) tensorflow: 苹果[0m
+[0;32mI (89608) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (89608) tensorflow: img_get[0m
+[0;31mE (91588) camera: img_get_float[0m
+[0;32mI (91858) tensorflow: img_get done[0m
+[0;32mI (92438) tensorflow: Output tensor[0m
+[0;32mI (92438) tensorflow: 橘子[0m
+[0;32mI (93438) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (93438) tensorflow: img_get[0m
+[0;31mE (93618) camera: img_get_float[0m
+[0;32mI (93888) tensorflow: img_get done[0m
+[0;32mI (94468) tensorflow: Output tensor[0m
+[0;32mI (94468) tensorflow: 橘子[0m
+[0;32mI (95468) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (95468) tensorflow: img_get[0m
+[0;31mE (95648) camera: img_get_float[0m
+[0;32mI (95918) tensorflow: img_get done[0m
+[0;32mI (96498) tensorflow: Output tensor[0m
+[0;32mI (96498) tensorflow: 橘子[0m
+[0;32mI (97498) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (97498) tensorflow: img_get[0m
+[0;31mE (97678) camera: img_get_float[0m
+[0;32mI (97948) tensorflow: img_get done[0m
+[0;32mI (98528) tensorflow: Output tensor[0m
+[0;32mI (98528) tensorflow: 香蕉[0m
+[0;32mI (99528) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (99528) tensorflow: img_get[0m
+[0;31mE (99718) camera: img_get_float[0m
+[0;32mI (99978) tensorflow: img_get done[0m
+[0;32mI (100558) tensorflow: Output tensor[0m
+[0;32mI (100558) tensorflow: 苹果[0m
+[0;32mI (101558) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (101558) tensorflow: img_get[0m
+[0;31mE (101748) camera: img_get_float[0m
+[0;32mI (102008) tensorflow: img_get done[0m
+[0;32mI (102588) tensorflow: Output tensor[0m
+[0;32mI (102588) tensorflow: 苹果[0m
+[0;32mI (103588) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (103588) tensorflow: img_get[0m
+[0;31mE (103778) camera: img_get_float[0m
+[0;32mI (104038) tensorflow: img_get done[0m
+[0;32mI (104618) tensorflow: Output tensor[0m
+[0;32mI (104618) tensorflow: 香蕉[0m
+[0;32mI (105618) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (105618) tensorflow: img_get[0m
+[0;31mE (105808) camera: img_get_float[0m
+[0;32mI (106068) tensorflow: img_get done[0m
+[0;32mI (106648) tensorflow: Output tensor[0m
+[0;32mI (106648) tensorflow: 香蕉[0m
+[0;32mI (107648) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (107648) tensorflow: img_get[0m
+[0;31mE (107838) camera: img_get_float[0m
+[0;32mI (108098) tensorflow: img_get done[0m
+[0;32mI (108678) tensorflow: Output tensor[0m
+[0;32mI (108678) tensorflow: 香蕉[0m
+[0;32mI (109678) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (109678) tensorflow: img_get[0m
+[0;31mE (109868) camera: img_get_float[0m
+[0;32mI (110128) tensorflow: img_get done[0m
+[0;32mI (110708) tensorflow: Output tensor[0m
+[0;32mI (110708) tensorflow: 香蕉[0m
+[0;32mI (111708) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (111708) tensorflow: img_get[0m
+[0;31mE (112118) camera: img_get_float[0m
+[0;32mI (112378) tensorflow: img_get done[0m
+[0;32mI (112968) tensorflow: Output tensor[0m
+[0;32mI (112968) tensorflow: 香蕉[0m
+[0;32mI (113968) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (113968) tensorflow: img_get[0m
+[0;31mE (114148) camera: img_get_float[0m
+[0;32mI (114408) tensorflow: img_get done[0m
+[0;32mI (114998) tensorflow: Output tensor[0m
+[0;32mI (114998) tensorflow: 香蕉[0m
+[0;32mI (115998) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (115998) tensorflow: img_get[0m
+[0;31mE (116178) camera: img_get_float[0m
+[0;32mI (116448) tensorflow: img_get done[0m
+[0;32mI (117028) tensorflow: Output tensor[0m
+[0;32mI (117028) tensorflow: 香蕉[0m
+[0;32mI (118028) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (118028) tensorflow: img_get[0m
+[0;31mE (118208) camera: img_get_float[0m
+[0;32mI (118478) tensorflow: img_get done[0m
+[0;32mI (119058) tensorflow: Output tensor[0m
+[0;32mI (119058) tensorflow: 香蕉[0m
+[0;32mI (120058) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (120058) tensorflow: img_get[0m
+[0;31mE (120238) camera: img_get_float[0m
+[0;32mI (120508) tensorflow: img_get done[0m
+[0;32mI (121088) tensorflow: Output tensor[0m
+[0;32mI (121088) tensorflow: 香蕉[0m
+[0;32mI (122088) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (122088) tensorflow: img_get[0m
+[0;31mE (122268) camera: img_get_float[0m
+[0;32mI (122538) tensorflow: img_get done[0m
+[0;32mI (123118) tensorflow: Output tensor[0m
+[0;32mI (123118) tensorflow: 香蕉[0m
+[0;32mI (124118) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (124118) tensorflow: img_get[0m
+[0;31mE (124298) camera: img_get_float[0m
+[0;32mI (124568) tensorflow: img_get done[0m
+[0;32mI (125148) tensorflow: Output tensor[0m
+[0;32mI (125148) tensorflow: 香蕉[0m
+[0;32mI (126148) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (126148) tensorflow: img_get[0m
+[0;31mE (126328) camera: img_get_float[0m
+[0;32mI (126598) tensorflow: img_get done[0m
+[0;32mI (127178) tensorflow: Output tensor[0m
+[0;32mI (127178) tensorflow: 香蕉[0m
+[0;32mI (128178) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (128178) tensorflow: img_get[0m
+[0;31mE (128358) camera: img_get_float[0m
+[0;32mI (128628) tensorflow: img_get done[0m
+[0;32mI (129208) tensorflow: Output tensor[0m
+[0;32mI (129208) tensorflow: 香蕉[0m
+[0;32mI (130208) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (130208) tensorflow: img_get[0m
+[0;31mE (130388) camera: img_get_float[0m
+[0;32mI (130658) tensorflow: img_get done[0m
+[0;32mI (131238) tensorflow: Output tensor[0m
+[0;32mI (131238) tensorflow: 香蕉[0m
+[0;32mI (132238) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (132238) tensorflow: img_get[0m
+[0;31mE (132418) camera: img_get_float[0m
+[0;32mI (132688) tensorflow: img_get done[0m
+[0;32mI (133268) tensorflow: Output tensor[0m
+[0;32mI (133268) tensorflow: 香蕉[0m
+[0;32mI (134268) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (134268) tensorflow: img_get[0m
+[0;31mE (134448) camera: img_get_float[0m
+[0;32mI (134718) tensorflow: img_get done[0m
+[0;32mI (135298) tensorflow: Output tensor[0m
+[0;32mI (135298) tensorflow: 香蕉[0m
+[0;32mI (136298) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (136298) tensorflow: img_get[0m
+[0;31mE (136478) camera: img_get_float[0m
+[0;32mI (136748) tensorflow: img_get done[0m
+[0;32mI (137328) tensorflow: Output tensor[0m
+[0;32mI (137328) tensorflow: 香蕉[0m
+[0;32mI (138328) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (138328) tensorflow: img_get[0m
+[0;31mE (138508) camera: img_get_float[0m
+[0;32mI (138778) tensorflow: img_get done[0m
+[0;32mI (139358) tensorflow: Output tensor[0m
+[0;32mI (139358) tensorflow: 香蕉[0m
+[0;32mI (140358) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (140358) tensorflow: img_get[0m
+[0;31mE (140538) camera: img_get_float[0m
+[0;32mI (140808) tensorflow: img_get done[0m
+[0;32mI (141388) tensorflow: Output tensor[0m
+[0;32mI (141388) tensorflow: 香蕉[0m
+[0;32mI (142388) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (142388) tensorflow: img_get[0m
+[0;31mE (142568) camera: img_get_float[0m
+[0;32mI (142838) tensorflow: img_get done[0m
+[0;32mI (143418) tensorflow: Output tensor[0m
+[0;32mI (143418) tensorflow: 香蕉[0m
+[0;32mI (144418) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (144418) tensorflow: img_get[0m
+[0;31mE (144598) camera: img_get_float[0m
+[0;32mI (144868) tensorflow: img_get done[0m
+[0;32mI (145448) tensorflow: Output tensor[0m
+[0;32mI (145448) tensorflow: 香蕉[0m
+[0;32mI (146448) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (146448) tensorflow: img_get[0m
+[0;31mE (146628) camera: img_get_float[0m
+[0;32mI (146898) tensorflow: img_get done[0m
+[0;32mI (147478) tensorflow: Output tensor[0m
+[0;32mI (147478) tensorflow: 香蕉[0m
+[0;32mI (148478) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (148478) tensorflow: img_get[0m
+[0;31mE (148658) camera: img_get_float[0m
+[0;32mI (148928) tensorflow: img_get done[0m
+[0;32mI (149508) tensorflow: Output tensor[0m
+[0;32mI (149508) tensorflow: 香蕉[0m
+[0;32mI (150508) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (150508) tensorflow: img_get[0m
+[0;31mE (150688) camera: img_get_float[0m
+[0;32mI (150958) tensorflow: img_get done[0m
+[0;32mI (151538) tensorflow: Output tensor[0m
+[0;32mI (151538) tensorflow: 香蕉[0m
+[0;32mI (152538) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (152538) tensorflow: img_get[0m
+[0;31mE (152718) camera: img_get_float[0m
+[0;32mI (152988) tensorflow: img_get done[0m
+[0;32mI (153568) tensorflow: Output tensor[0m
+[0;32mI (153568) tensorflow: 香蕉[0m
+[0;32mI (154568) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (154568) tensorflow: img_get[0m
+[0;31mE (154748) camera: img_get_float[0m
+[0;32mI (155018) tensorflow: img_get done[0m
+[0;32mI (155598) tensorflow: Output tensor[0m
+[0;32mI (155598) tensorflow: 香蕉[0m
+[0;32mI (156598) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (156598) tensorflow: img_get[0m
+[0;31mE (156778) camera: img_get_float[0m
+[0;32mI (157048) tensorflow: img_get done[0m
+[0;32mI (157628) tensorflow: Output tensor[0m
+[0;32mI (157628) tensorflow: 香蕉[0m
+[0;32mI (158628) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (158628) tensorflow: img_get[0m
+[0;31mE (158808) camera: img_get_float[0m
+[0;32mI (159078) tensorflow: img_get done[0m
+[0;32mI (159658) tensorflow: Output tensor[0m
+[0;32mI (159658) tensorflow: 香蕉[0m
+[0;32mI (160658) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (160658) tensorflow: img_get[0m
+[0;31mE (160838) camera: img_get_float[0m
+[0;32mI (161108) tensorflow: img_get done[0m
+[0;32mI (161688) tensorflow: Output tensor[0m
+[0;32mI (161688) tensorflow: 香蕉[0m
+[0;32mI (162688) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (162688) tensorflow: img_get[0m
+[0;31mE (162868) camera: img_get_float[0m
+[0;32mI (163138) tensorflow: img_get done[0m
+[0;32mI (163718) tensorflow: Output tensor[0m
+[0;32mI (163718) tensorflow: 香蕉[0m
+[0;32mI (164718) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (164718) tensorflow: img_get[0m
+[0;31mE (164898) camera: img_get_float[0m
+[0;32mI (165168) tensorflow: img_get done[0m
+[0;32mI (165748) tensorflow: Output tensor[0m
+[0;32mI (165748) tensorflow: 香蕉[0m
+[0;32mI (166748) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (166748) tensorflow: img_get[0m
+[0;31mE (166928) camera: img_get_float[0m
+[0;32mI (167198) tensorflow: img_get done[0m
+[0;32mI (167778) tensorflow: Output tensor[0m
+[0;32mI (167778) tensorflow: 香蕉[0m
+[0;32mI (168778) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (168778) tensorflow: img_get[0m
+[0;31mE (168968) camera: img_get_float[0m
+[0;32mI (169228) tensorflow: img_get done[0m
+[0;32mI (169808) tensorflow: Output tensor[0m
+[0;32mI (169808) tensorflow: 香蕉[0m

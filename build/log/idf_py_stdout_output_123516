@@ -1,0 +1,49 @@
+-- Existing sdkconfig '/home/vl/esp32/project_my/esp32s3_lvgl/sdkconfig' renamed to '/home/vl/esp32/project_my/esp32s3_lvgl/sdkconfig.old'.
+-- Found Git: /usr/bin/git (found version "2.43.0") 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/vl/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/vl/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/vl/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Updating lock file at /home/vl/esp32/project_my/esp32s3_lvgl/dependencies.lock
+NOTICE: Processing 1 dependencies:
+NOTICE: [1/1] idf (5.2.0)
+-- Project sdkconfig file /home/vl/esp32/project_my/esp32s3_lvgl/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python (found version "3.12.3") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "esp32s3_lvgl" version: 1
+-- Adding linker script /home/vl/esp32/project_my/esp32s3_lvgl/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bsp bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lvgl lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/vl/esp32/esp-idf/components/app_trace /home/vl/esp32/esp-idf/components/app_update /home/vl/esp32/esp-idf/components/bootloader /home/vl/esp32/esp-idf/components/bootloader_support /home/vl/esp32/project_my/esp32s3_lvgl/components/bsp /home/vl/esp32/esp-idf/components/bt /home/vl/esp32/esp-idf/components/cmock /home/vl/esp32/esp-idf/components/console /home/vl/esp32/esp-idf/components/cxx /home/vl/esp32/esp-idf/components/driver /home/vl/esp32/esp-idf/components/efuse /home/vl/esp32/esp-idf/components/esp-tls /home/vl/esp32/esp-idf/components/esp_adc /home/vl/esp32/esp-idf/components/esp_app_format /home/vl/esp32/esp-idf/components/esp_bootloader_format /home/vl/esp32/esp-idf/components/esp_coex /home/vl/esp32/esp-idf/components/esp_common /home/vl/esp32/esp-idf/components/esp_eth /home/vl/esp32/esp-idf/components/esp_event /home/vl/esp32/esp-idf/components/esp_gdbstub /home/vl/esp32/esp-idf/components/esp_hid /home/vl/esp32/esp-idf/components/esp_http_client /home/vl/esp32/esp-idf/components/esp_http_server /home/vl/esp32/esp-idf/components/esp_https_ota /home/vl/esp32/esp-idf/components/esp_https_server /home/vl/esp32/esp-idf/components/esp_hw_support /home/vl/esp32/esp-idf/components/esp_lcd /home/vl/esp32/esp-idf/components/esp_local_ctrl /home/vl/esp32/esp-idf/components/esp_mm /home/vl/esp32/esp-idf/components/esp_netif /home/vl/esp32/esp-idf/components/esp_netif_stack /home/vl/esp32/esp-idf/components/esp_partition /home/vl/esp32/esp-idf/components/esp_phy /home/vl/esp32/esp-idf/components/esp_pm /home/vl/esp32/esp-idf/components/esp_psram /home/vl/esp32/esp-idf/components/esp_ringbuf /home/vl/esp32/esp-idf/components/esp_rom /home/vl/esp32/esp-idf/components/esp_system /home/vl/esp32/esp-idf/components/esp_timer /home/vl/esp32/esp-idf/components/esp_wifi /home/vl/esp32/esp-idf/components/espcoredump /home/vl/esp32/esp-idf/components/esptool_py /home/vl/esp32/esp-idf/components/fatfs /home/vl/esp32/esp-idf/components/freertos /home/vl/esp32/esp-idf/components/hal /home/vl/esp32/esp-idf/components/heap /home/vl/esp32/esp-idf/components/http_parser /home/vl/esp32/esp-idf/components/idf_test /home/vl/esp32/esp-idf/components/ieee802154 /home/vl/esp32/esp-idf/components/json /home/vl/esp32/esp-idf/components/log /home/vl/esp32/project_my/esp32s3_lvgl/components/lvgl /home/vl/esp32/esp-idf/components/lwip /home/vl/esp32/project_my/esp32s3_lvgl/main /home/vl/esp32/esp-idf/components/mbedtls /home/vl/esp32/esp-idf/components/mqtt /home/vl/esp32/esp-idf/components/newlib /home/vl/esp32/esp-idf/components/nvs_flash /home/vl/esp32/esp-idf/components/nvs_sec_provider /home/vl/esp32/esp-idf/components/openthread /home/vl/esp32/esp-idf/components/partition_table /home/vl/esp32/esp-idf/components/perfmon /home/vl/esp32/esp-idf/components/protobuf-c /home/vl/esp32/esp-idf/components/protocomm /home/vl/esp32/esp-idf/components/pthread /home/vl/esp32/esp-idf/components/sdmmc /home/vl/esp32/esp-idf/components/soc /home/vl/esp32/esp-idf/components/spi_flash /home/vl/esp32/esp-idf/components/spiffs /home/vl/esp32/esp-idf/components/tcp_transport /home/vl/esp32/esp-idf/components/touch_element /home/vl/esp32/esp-idf/components/ulp /home/vl/esp32/esp-idf/components/unity /home/vl/esp32/esp-idf/components/usb /home/vl/esp32/esp-idf/components/vfs /home/vl/esp32/esp-idf/components/wear_levelling /home/vl/esp32/esp-idf/components/wifi_provisioning /home/vl/esp32/esp-idf/components/wpa_supplicant /home/vl/esp32/esp-idf/components/xtensa
+-- Configuring done (7.6s)
+-- Generating done (0.8s)
+-- Build files have been written to: /home/vl/esp32/project_my/esp32s3_lvgl/build

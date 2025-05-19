@@ -1,0 +1,9 @@
+{
+    "idf.pythonInstallPath": "/home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python",
+    "files.associations": {
+        "*.c": "cuda-cpp",
+        "esp_lcd_panel_ops.h": "c",
+        "esp_camera.h": "c",
+        "ov5640.h": "c"
+    }
+}

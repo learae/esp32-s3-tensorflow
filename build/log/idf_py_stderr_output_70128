@@ -1,0 +1,44 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x42008b11: s_test_psram at /home/vl/esp32/esp-idf/components/esp_psram/esp_psram.c:405
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x40056f59: memcpy in ROM
+0x420309f5: tflite::MicroMutableOpResolver<12u>::AddCustom(char const*, TFLMRegistration const*) at /home/vl/esp32/project_my/esp32s3_lvgl/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_mutable_op_resolver.h:108
+0x42030cff: setup at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:149 (discriminator 1)
+0x42030d93: tensorflow_task at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:203
+0x4037d649: vPortTaskWrapper at /home/vl/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40375c20: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x40056f59: memcpy in ROM
+0x420309f5: tflite::MicroMutableOpResolver<12u>::AddCustom(char const*, TFLMRegistration const*) at /home/vl/esp32/project_my/esp32s3_lvgl/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_mutable_op_resolver.h:108
+0x42030cff: setup at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:149 (discriminator 1)
+0x42030d93: tensorflow_task at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:203
+0x4037d649: vPortTaskWrapper at /home/vl/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40375c20: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x40056f59: memcpy in ROM
+0x420309f5: tflite::MicroMutableOpResolver<12u>::AddCustom(char const*, TFLMRegistration const*) at /home/vl/esp32/project_my/esp32s3_lvgl/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_mutable_op_resolver.h:108
+0x42030cff: setup at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:149 (discriminator 1)
+0x42030d93: tensorflow_task at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:203
+0x4037d649: vPortTaskWrapper at /home/vl/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40375c20: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

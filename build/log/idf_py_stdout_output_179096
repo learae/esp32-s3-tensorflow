@@ -1,0 +1,274 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x42009029
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d98
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May  6 2025 12:17:23[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00400000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c060020 size=18ce8h (101608) map[0m
+[0;32mI (117) esp_image: segment 1: paddr=00028d10 vaddr=3fc96500 size=03f08h ( 16136) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0002cc20 vaddr=40374000 size=033f8h ( 13304) load[0m
+[0;32mI (126) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=564e4h (353508) map[0m
+[0;32mI (195) esp_image: segment 4: paddr=0008650c vaddr=403773f8 size=0f09ch ( 61596) load[0m
+[0;32mI (216) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (217) boot: Disabling RNG early entropy source...[0m
+[0;32mI (228) cpu_start: Multicore app[0m
+[0;32mI (228) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (228) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (231) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (237) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (242) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (247) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (252) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (258) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (264) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (270) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (276) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (281) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (286) esp_psram: Speed: 40MHz[0m
+[0;32mI (1021) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1030) cpu_start: Pro cpu start user code[0m
+[0;32mI (1030) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (1030) cpu_start: Application information:[0m
+[0;32mI (1033) cpu_start: Project name:     esp32s3_lvgl[0m
+[0;32mI (1039) cpu_start: App version:      1[0m
+[0;32mI (1043) cpu_start: Compile time:     May  7 2025 10:55:54[0m
+[0;32mI (1049) cpu_start: ELF file SHA256:  70462c5bd...[0m
+[0;32mI (1055) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (1059) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (1064) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (1069) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (1074) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1081) heap_init: At 3FC9B288 len 0004E488 (313 KiB): RAM[0m
+[0;32mI (1087) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1094) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1100) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (1106) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1115) spi_flash: detected chip: winbond[0m
+[0;32mI (1119) spi_flash: flash io: dio[0m
+[0;33mW (1123) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (1133) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1140) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1148) main_task: Started on CPU0[0m
+[0;32mI (1158) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1158) main_task: Calling app_main()[0m
+[0;32mI (1168) lvgl_example: SPI BUS init[0m
+[0;32mI (1168) lvgl_example: Install panel IO[0m
+[0;32mI (1178) gpio: GPIO[42]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1188) lvgl_example: Install ST7789 panel driver[0m
+[0;32mI (1308) cst816t: 	Chip ID: 0xb6[0m
+[0;32mI (1308) cst816t: 	Firmware version: 0x01[0m
+[0;32mI (1308) cst816t: 	Factory ID: 0x04[0m
+[0;32mI (1308) lvgl_example: Install LVGL tick timer[0m
+[0;32mI (1308) lvgl_example: LCD brightness set to 80%[0m
+[0;32mI (1318) s3 ll_cam: DMA Channel=1[0m
+[0;32mI (1318) cam_hal: cam init ok[0m
+[0;32mI (1328) sccb: pin_sda 21 pin_scl 16[0m
+[0;32mI (1328) sccb: sccb_i2c_port=1[0m
+[0;32mI (1338) gpio: GPIO[17]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1368) camera: Detected camera at address=0x3c[0m
+[0;32mI (1368) ov3660: Mismatch PID=0x5640[0m
+[0;32mI (1368) camera: Detected OV5640 camera[0m
+[0;32mI (1368) camera: Camera PID=0x5640 VER=0x00 MIDL=0x00 MIDH=0x00[0m
+[0;32mI (2058) s3 ll_cam: node_size: 3840, nodes_per_line: 1, lines_per_node: 4[0m
+[0;32mI (2058) s3 ll_cam: dma_half_buffer_min:  3840, dma_half_buffer: 15360, lines_per_half_buffer: 16, dma_buffer_size: 30720[0m
+[0;32mI (2058) cam_hal: buffer_size: 30720, half_buffer_size: 15360, node_buffer_size: 3840, node_cnt: 8, total_cnt: 20[0m
+[0;32mI (2068) cam_hal: Allocating 307200 Byte frame buffer in PSRAM[0m
+[0;32mI (2078) cam_hal: cam config ok[0m
+[0;32mI (2098) ov5640: Set PLL: bypass: 0, multiplier: 8, sys_div: 1, pre_div: 1, root_2x: 0, pclk_root_div: 1, pclk_manual: 1, pclk_div: 4[0m
+[0;32mI (2098) ov5640: Calculated XVCLK: 20000000 Hz, REFIN: 20000000 Hz, VCO: 160000000 Hz, PLL_CLK: 64000000 Hz, SYSCLK: 16000000 Hz, PCLK: 8000000 Hz[0m
+[0;32mI (2138) main_task: Returned from app_main()[0m
+[0;31mE (2398) camera: get pic[0m
+[0;31mE (2628) camera: get pic[0m
+[0;31mE (2858) camera: get pic[0m
+[0;31mE (3078) camera: get pic[0m
+[0;31mE (3308) camera: get pic[0m
+[0;31mE (3528) camera: get pic[0m
+[0;31mE (3758) camera: get pic[0m
+[0;31mE (3978) camera: get pic[0m
+[0;31mE (4208) camera: get pic[0m
+[0;31mE (4428) camera: get pic[0m
+[0;31mE (4658) camera: get pic[0m
+[0;31mE (4888) camera: get pic[0m
+[0;31mE (5108) camera: get pic[0m
+[0;31mE (5338) camera: get pic[0m
+[0;31mE (5558) camera: get pic[0m
+[0;31mE (5788) camera: get pic[0m
+[0;31mE (6008) camera: get pic[0m
+[0;31mE (6238) camera: get pic[0m
+[0;31mE (6458) camera: get pic[0m
+[0;31mE (6688) camera: get pic[0m
+[0;31mE (6918) camera: get pic[0m
+[0;31mE (7138) camera: get pic[0m
+[0;31mE (7368) camera: get pic[0m
+[0;31mE (7588) camera: get pic[0m
+[0;31mE (7818) camera: get pic[0m
+[0;31mE (8038) camera: get pic[0m
+[0;31mE (8268) camera: get pic[0m
+[0;31mE (8498) camera: get pic[0m
+[0;31mE (8718) camera: get pic[0m
+[0;31mE (8948) camera: get pic[0m
+[0;31mE (9168) camera: get pic[0m
+[0;31mE (9398) camera: get pic[0m
+[0;31mE (9618) camera: get pic[0m
+[0;31mE (9848) camera: get pic[0m
+[0;31mE (10068) camera: get pic[0m
+[0;31mE (10298) camera: get pic[0m
+[0;31mE (10528) camera: get pic[0m
+[0;31mE (10748) camera: get pic[0m
+[0;31mE (10978) camera: get pic[0m
+[0;31mE (11198) camera: get pic[0m
+[0;31mE (11428) camera: get pic[0m
+[0;31mE (11648) camera: get pic[0m
+[0;31mE (11878) camera: get pic[0m
+[0;31mE (12098) camera: get pic[0m
+[0;31mE (12328) camera: get pic[0m
+[0;31mE (12558) camera: get pic[0m
+[0;31mE (12778) camera: get pic[0m
+[0;31mE (13008) camera: get pic[0m
+[0;31mE (13228) camera: get pic[0m
+[0;31mE (13458) camera: get pic[0m
+[0;31mE (13678) camera: get pic[0m
+[0;31mE (13908) camera: get pic[0m
+[0;31mE (14128) camera: get pic[0m
+[0;31mE (14358) camera: get pic[0m
+[0;31mE (14588) camera: get pic[0m
+[0;31mE (14808) camera: get pic[0m
+[0;31mE (15038) camera: get pic[0m
+[0;31mE (15258) camera: get pic[0m
+[0;31mE (15488) camera: get pic[0m
+[0;31mE (15708) camera: get pic[0m
+[0;31mE (15938) camera: get pic[0m
+[0;31mE (16158) camera: get pic[0m
+[0;31mE (16388) camera: get pic[0m
+[0;31mE (16618) camera: get pic[0m
+[0;31mE (16838) camera: get pic[0m
+[0;31mE (17068) camera: get pic[0m
+[0;31mE (17288) camera: get pic[0m
+[0;31mE (17518) camera: get pic[0m
+[0;31mE (17738) camera: get pic[0m
+[0;31mE (17968) camera: get pic[0m
+[0;31mE (18188) camera: get pic[0m
+[0;31mE (18418) camera: get pic[0m
+[0;31mE (18648) camera: get pic[0m
+[0;31mE (18868) camera: get pic[0m
+[0;31mE (19098) camera: get pic[0m
+[0;31mE (19318) camera: get pic[0m
+[0;31mE (19548) camera: get pic[0m
+[0;31mE (19768) camera: get pic[0m
+[0;31mE (19998) camera: get pic[0m
+[0;31mE (20218) camera: get pic[0m
+[0;31mE (20448) camera: get pic[0m
+[0;31mE (20678) camera: get pic[0m
+[0;31mE (20898) camera: get pic[0m
+[0;31mE (21128) camera: get pic[0m
+[0;31mE (21348) camera: get pic[0m
+[0;31mE (21578) camera: get pic[0m
+[0;31mE (21798) camera: get pic[0m
+[0;31mE (22028) camera: get pic[0m
+[0;31mE (22248) camera: get pic[0m
+[0;31mE (22478) camera: get pic[0m
+[0;31mE (22708) camera: get pic[0m
+[0;31mE (22928) camera: get pic[0m
+[0;31mE (23158) camera: get pic[0m
+[0;31mE (23378) camera: get pic[0m
+[0;31mE (23608) camera: get pic[0m
+[0;31mE (23828) camera: get pic[0m
+[0;31mE (24058) camera: get pic[0m
+[0;31mE (24278) camera: get pic[0m
+[0;31mE (24508) camera: get pic[0m
+[0;31mE (24738) camera: get pic[0m
+[0;31mE (24958) camera: get pic[0m
+[0;31mE (25188) camera: get pic[0m
+[0;31mE (25408) camera: get pic[0m
+[0;31mE (25638) camera: get pic[0m
+[0;31mE (25858) camera: get pic[0m
+[0;31mE (26088) camera: get pic[0m
+[0;31mE (26318) camera: get pic[0m
+[0;31mE (26538) camera: get pic[0m
+[0;31mE (26768) camera: get pic[0m
+[0;31mE (26988) camera: get pic[0m
+[0;31mE (27218) camera: get pic[0m
+[0;31mE (27438) camera: get pic[0m
+[0;31mE (27668) camera: get pic[0m
+[0;31mE (27888) camera: get pic[0m
+[0;31mE (28118) camera: get pic[0m
+[0;31mE (28348) camera: get pic[0m
+[0;31mE (28568) camera: get pic[0m
+[0;31mE (28798) camera: get pic[0m
+[0;31mE (29018) camera: get pic[0m
+[0;31mE (29248) camera: get pic[0m
+[0;31mE (29468) camera: get pic[0m
+[0;31mE (29698) camera: get pic[0m
+[0;31mE (29918) camera: get pic[0m
+[0;31mE (30148) camera: get pic[0m
+[0;31mE (30378) camera: get pic[0m
+[0;31mE (30598) camera: get pic[0m
+[0;31mE (30828) camera: get pic[0m
+[0;31mE (31048) camera: get pic[0m
+[0;31mE (31278) camera: get pic[0m
+[0;31mE (31498) camera: get pic[0m
+[0;31mE (31728) camera: get pic[0m
+[0;31mE (31948) camera: get pic[0m
+[0;31mE (32178) camera: get pic[0m
+[0;31mE (32408) camera: get pic[0m
+[0;31mE (32628) camera: get pic[0m
+[0;31mE (32858) camera: get pic[0m
+[0;31mE (33078) camera: get pic[0m
+[0;31mE (33308) camera: get pic[0m
+[0;31mE (33528) camera: get pic[0m
+[0;31mE (33758) camera: get pic[0m
+[0;31mE (33978) camera: get pic[0m
+[0;31mE (34208) camera: get pic[0m
+[0;31mE (34438) camera: get pic[0m
+[0;31mE (34658) camera: get pic[0m
+[0;31mE (34888) camera: get pic[0m
+[0;31mE (35108) camera: get pic[0m
+[0;31mE (35338) camera: get pic[0m
+[0;31mE (35558) camera: get pic[0m
+[0;31mE (35788) camera: get pic[0m
+[0;31mE (36008) camera: get pic[0m
+[0;31mE (36238) camera: get pic[0m
+[0;31mE (36468) camera: get pic[0m
+[0;31mE (36688) camera: get pic[0m
+[0;31mE (36918) camera: get pic[0m
+[0;31mE (37138) camera: get pic[0m
+[0;31mE (37368) camera: get pic[0m
+[0;31mE (37588) camera: get pic[0m
+[0;31mE (37818) camera: get pic[0m
+[0;31mE (38038) camera: get pic[0m
+[0;31mE (38268) camera: get pic[0m
+[0;31mE (38498) camera: get pic[0m
+[0;31mE (38718) camera: get pic[0m
+[0;31mE (38948) camera: get pic[0m
+[0;31mE (39168) camera: get pic[0m
+[0;31mE (39398) camera: get pic[0m
+[0;31mE (39618) camera: get pic[0m
+[0;31mE (39848) camera: get pic[0m
+[0;31mE (40068) camera: get pic[0m
+[0;31mE (40298) camera: get pic[0m
+[0;31mE (40528) camera: get pic[0m
+[0;31mE (40748) camera: get pic[0m
+[0;31mE (40978) camera: get pic[0m
+[0;31mE (41198) camera: get pic[0m
+[0;31mE (41428) camera: get pic[0m
+[0;31mE (41648) camera: get pic[0m
+[0;31mE (41878) camera: get pic[0m

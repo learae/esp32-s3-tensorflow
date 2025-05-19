@@ -1,0 +1,11 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Updating lock file at /home/vl/esp32/project_my/esp32s3_lvgl/dependencies.lock
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] espressif/esp32-camera (2.0.15)
+NOTICE: [2/2] idf (5.2.0)
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/home/vl/esp32/project_my/esp32s3_lvgl -B/home/vl/esp32/project_my/esp32s3_lvgl/build

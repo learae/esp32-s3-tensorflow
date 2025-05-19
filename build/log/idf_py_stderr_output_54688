@@ -1,0 +1,27 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x42008d05: s_test_psram at /home/vl/esp32/esp-idf/components/esp_psram/esp_psram.c:405
+[0m
+[0;33m--- 0x420309fd: loop() at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:91
+[0m
+[0;33m--- 0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m--- 0x420309fa: loop() at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:91
+0x42030d02: tensorflow_task at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:116
+0x4037d649: vPortTaskWrapper at /home/vl/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40375c20: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m--- 0x420309fd: loop() at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:91
+[0m
+[0;33m--- 0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m--- 0x420309fa: loop() at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:91
+0x42030d02: tensorflow_task at /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:116
+0x4037d649: vPortTaskWrapper at /home/vl/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40375c20: esp_restart_noos at /home/vl/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

@@ -1,0 +1,7 @@
+[1/4] cd /home/vl/esp32/project_my/esp32s3_lvgl/build/esp-idf/esptool_py && /home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/vl/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/vl/esp32/project_my/esp32s3_lvgl/build/partition_table/partition-table.bin /home/vl/esp32/project_my/esp32s3_lvgl/build/esp32s3_lvgl.bin
+esp32s3_lvgl.bin binary size 0xb5a30 bytes. Smallest app partition is 0x800000 bytes. 0x74a5d0 bytes (91%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/vl/esp32/project_my/esp32s3_lvgl/build/bootloader/esp-idf/esptool_py && /home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/vl/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/vl/esp32/project_my/esp32s3_lvgl/build/bootloader/bootloader.bin
+Bootloader binary size 0x5240 bytes. 0x2dc0 bytes (36%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'

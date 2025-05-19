@@ -1,0 +1,536 @@
+[0;32mI (125) esp_image: segment 1: paddr=0002cc2c vaddr=3fc965ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x28 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x42008b4d
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d98
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May  6 2025 12:17:23[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00800000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c070020 size=1cc04h (117764) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0002cc2c vaddr=3fc96500 size=033ech ( 13292) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=6af68h (438120) map[0m
+[0;32mI (205) esp_image: segment 3: paddr=0009af90 vaddr=3fc998ec size=1a24ch (107084) load[0m
+[0;32mI (227) esp_image: segment 4: paddr=000b51e4 vaddr=40374000 size=124dch ( 74972) load[0m
+[0;32mI (256) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (257) boot: Disabling RNG early entropy source...[0m
+[0;32mI (268) cpu_start: Multicore app[0m
+[0;32mI (268) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (268) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (271) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (277) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (282) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (287) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (292) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (298) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (304) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (310) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (316) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (321) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (326) esp_psram: Speed: 40MHz[0m
+[0;32mI (1061) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1070) cpu_start: Pro cpu start user code[0m
+[0;32mI (1070) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (1070) cpu_start: Application information:[0m
+[0;32mI (1073) cpu_start: Project name:     esp32s3_lvgl[0m
+[0;32mI (1079) cpu_start: App version:      1[0m
+[0;32mI (1083) cpu_start: Compile time:     May 11 2025 11:12:29[0m
+[0;32mI (1089) cpu_start: ELF file SHA256:  59fc388b6...[0m
+[0;32mI (1095) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (1099) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (1104) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (1109) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (1114) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1121) heap_init: At 3FCB4DA0 len 00034970 (210 KiB): RAM[0m
+[0;32mI (1127) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1134) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1140) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (1146) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1155) spi_flash: detected chip: winbond[0m
+[0;32mI (1159) spi_flash: flash io: dio[0m
+[0;33mW (1163) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (1173) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1180) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1188) main_task: Started on CPU0[0m
+[0;32mI (1198) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1198) main_task: Calling app_main()[0m
+[0;32mI (1208) lvgl_example: SPI BUS init[0m
+[0;32mI (1208) lvgl_example: Install panel IO[0m
+[0;32mI (1218) gpio: GPIO[42]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1228) lvgl_example: Install ST7789 panel driver[0m
+[0;32mI (1348) cst816t: 	Chip ID: 0xb6[0m
+[0;32mI (1348) cst816t: 	Firmware version: 0x01[0m
+[0;32mI (1348) cst816t: 	Factory ID: 0x04[0m
+[0;32mI (1348) lvgl_example: Install LVGL tick timer[0m
+[0;32mI (1348) lvgl_example: LCD brightness set to 80%[0m
+[0;32mI (1358) s3 ll_cam: DMA Channel=1[0m
+[0;32mI (1358) cam_hal: cam init ok[0m
+[0;32mI (1368) sccb: pin_sda 21 pin_scl 16[0m
+[0;32mI (1368) sccb: sccb_i2c_port=1[0m
+[0;32mI (1378) gpio: GPIO[17]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1408) camera: Detected camera at address=0x3c[0m
+[0;32mI (1408) ov3660: Mismatch PID=0x5640[0m
+[0;32mI (1408) camera: Detected OV5640 camera[0m
+[0;32mI (1408) camera: Camera PID=0x5640 VER=0x00 MIDL=0x00 MIDH=0x00[0m
+[0;32mI (2098) s3 ll_cam: node_size: 3840, nodes_per_line: 1, lines_per_node: 4[0m
+[0;32mI (2098) s3 ll_cam: dma_half_buffer_min:  3840, dma_half_buffer: 15360, lines_per_half_buffer: 16, dma_buffer_size: 30720[0m
+[0;32mI (2098) cam_hal: buffer_size: 30720, half_buffer_size: 15360, node_buffer_size: 3840, node_cnt: 8, total_cnt: 20[0m
+[0;32mI (2108) cam_hal: Allocating 307200 Byte frame buffer in PSRAM[0m
+[0;32mI (2118) cam_hal: cam config ok[0m
+[0;32mI (2138) ov5640: Set PLL: bypass: 0, multiplier: 8, sys_div: 1, pre_div: 1, root_2x: 0, pclk_root_div: 1, pclk_manual: 1, pclk_div: 4[0m
+[0;32mI (2138) ov5640: Calculated XVCLK: 20000000 Hz, REFIN: 20000000 Hz, VCO: 160000000 Hz, PLL_CLK: 64000000 Hz, SYSCLK: 16000000 Hz, PCLK: 8000000 Hz[0m
+[0;32mI (2178) tensorflow: Starting TensorFlow Lite Micro task...[0m
+[0;32mI (2178) tensorflow: Model size[0m
+[0;32mI (2178) tensorflow: input dims: 1 100 100 3[0m
+[0;32mI (2178) tensorflow: input type: 1, input bytes: 120000[0m
+[0;32mI (2188) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (2188) tensorflow: img_get[0m
+[0;32mI (2198) lvgl_example: tensorflow_task created successfully[0m
+[0;32mI (2198) main_task: Returned from app_main()[0m
+[0;31mE (2488) camera: img_get_float[0m
+[0;32mI (2758) tensorflow: First 10 input values:[0m
+[0;32mI (2758) tensorflow: input[0]: 0.129412[0m
+[0;32mI (2758) tensorflow: input[1]: 0.380392[0m
+[0;32mI (2758) tensorflow: input[2]: 0.000000[0m
+[0;32mI (2768) tensorflow: input[3]: 0.262745[0m
+[0;32mI (2768) tensorflow: input[4]: 0.494118[0m
+[0;32mI (2768) tensorflow: input[5]: 0.184314[0m
+[0;32mI (2778) tensorflow: input[6]: 0.603922[0m
+[0;32mI (2778) tensorflow: input[7]: 0.247059[0m
+[0;32mI (2788) tensorflow: input[8]: 0.031373[0m
+[0;32mI (2788) tensorflow: input[9]: 0.694118[0m
+[0;32mI (2798) tensorflow: img_get done[0m
+[0;32mI (4578) tensorflow: Output tensor[0m
+[0;32mI (4578) tensorflow: 0: 0.996094
+[0m
+[0;32mI (4578) tensorflow: 1: 0.000000
+[0m
+[0;32mI (4578) tensorflow: 2: 0.000000
+[0m
+[0;32mI (5078) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (5078) tensorflow: img_get[0m
+[0;31mE (5648) camera: img_get_float[0m
+[0;32mI (5918) tensorflow: First 10 input values:[0m
+[0;32mI (5918) tensorflow: input[0]: 0.776471[0m
+[0;32mI (5918) tensorflow: input[1]: 0.780392[0m
+[0;32mI (5918) tensorflow: input[2]: 0.517647[0m
+[0;32mI (5918) tensorflow: input[3]: 0.462745[0m
+[0;32mI (5928) tensorflow: input[4]: 0.623529[0m
+[0;32mI (5928) tensorflow: input[5]: 0.494118[0m
+[0;32mI (5938) tensorflow: input[6]: 0.529412[0m
+[0;32mI (5938) tensorflow: input[7]: 0.490196[0m
+[0;32mI (5948) tensorflow: input[8]: 0.478431[0m
+[0;32mI (5948) tensorflow: input[9]: 0.584314[0m
+[0;32mI (5948) tensorflow: img_get done[0m
+[0;32mI (7738) tensorflow: Output tensor[0m
+[0;32mI (7738) tensorflow: 0: 0.996094
+[0m
+[0;32mI (7738) tensorflow: 1: 0.000000
+[0m
+[0;32mI (7738) tensorflow: 2: 0.000000
+[0m
+[0;32mI (8238) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (8238) tensorflow: img_get[0m
+[0;31mE (8578) camera: img_get_float[0m
+[0;32mI (8848) tensorflow: First 10 input values:[0m
+[0;32mI (8848) tensorflow: input[0]: 0.419608[0m
+[0;32mI (8848) tensorflow: input[1]: 0.141176[0m
+[0;32mI (8848) tensorflow: input[2]: 0.549020[0m
+[0;32mI (8858) tensorflow: input[3]: 0.337255[0m
+[0;32mI (8858) tensorflow: input[4]: 0.592157[0m
+[0;32mI (8858) tensorflow: input[5]: 0.133333[0m
+[0;32mI (8868) tensorflow: input[6]: 0.647059[0m
+[0;32mI (8868) tensorflow: input[7]: 0.576471[0m
+[0;32mI (8878) tensorflow: input[8]: 0.329412[0m
+[0;32mI (8878) tensorflow: input[9]: 0.270588[0m
+[0;32mI (8888) tensorflow: img_get done[0m
+[0;32mI (10668) tensorflow: Output tensor[0m
+[0;32mI (10668) tensorflow: 0: 0.996094
+[0m
+[0;32mI (10668) tensorflow: 1: 0.000000
+[0m
+[0;32mI (10668) tensorflow: 2: 0.000000
+[0m
+[0;32mI (11168) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (11168) tensorflow: img_get[0m
+[0;31mE (11738) camera: img_get_float[0m
+[0;32mI (12008) tensorflow: First 10 input values:[0m
+[0;32mI (12008) tensorflow: input[0]: 0.549020[0m
+[0;32mI (12008) tensorflow: input[1]: 0.015686[0m
+[0;32mI (12008) tensorflow: input[2]: 0.807843[0m
+[0;32mI (12008) tensorflow: input[3]: 0.266667[0m
+[0;32mI (12018) tensorflow: input[4]: 0.258824[0m
+[0;32mI (12018) tensorflow: input[5]: 0.431373[0m
+[0;32mI (12028) tensorflow: input[6]: 0.250980[0m
+[0;32mI (12028) tensorflow: input[7]: 0.600000[0m
+[0;32mI (12038) tensorflow: input[8]: 0.062745[0m
+[0;32mI (12038) tensorflow: input[9]: 0.874510[0m
+[0;32mI (12048) tensorflow: img_get done[0m
+[0;32mI (13818) tensorflow: Output tensor[0m
+[0;32mI (13818) tensorflow: 0: 0.996094
+[0m
+[0;32mI (13818) tensorflow: 1: 0.000000
+[0m
+[0;32mI (13828) tensorflow: 2: 0.000000
+[0m
+[0;32mI (14328) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (14328) tensorflow: img_get[0m
+[0;31mE (14678) camera: img_get_float[0m
+[0;32mI (14938) tensorflow: First 10 input values:[0m
+[0;32mI (14938) tensorflow: input[0]: 0.678431[0m
+[0;32mI (14938) tensorflow: input[1]: 0.411765[0m
+[0;32mI (14938) tensorflow: input[2]: 0.031373[0m
+[0;32mI (14948) tensorflow: input[3]: 0.854902[0m
+[0;32mI (14948) tensorflow: input[4]: 0.243137[0m
+[0;32mI (14958) tensorflow: input[5]: 0.752941[0m
+[0;32mI (14958) tensorflow: input[6]: 0.192157[0m
+[0;32mI (14958) tensorflow: input[7]: 0.298039[0m
+[0;32mI (14968) tensorflow: input[8]: 0.537255[0m
+[0;32mI (14968) tensorflow: input[9]: 0.792157[0m
+[0;32mI (14978) tensorflow: img_get done[0m
+[0;32mI (16758) tensorflow: Output tensor[0m
+[0;32mI (16758) tensorflow: 0: 0.996094
+[0m
+[0;32mI (16758) tensorflow: 1: 0.000000
+[0m
+[0;32mI (16758) tensorflow: 2: 0.000000
+[0m
+[0;32mI (17258) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (17258) tensorflow: img_get[0m
+[0;31mE (17828) camera: img_get_float[0m
+[0;32mI (18098) tensorflow: First 10 input values:[0m
+[0;32mI (18098) tensorflow: input[0]: 0.549020[0m
+[0;32mI (18098) tensorflow: input[1]: 0.396078[0m
+[0;32mI (18098) tensorflow: input[2]: 0.094118[0m
+[0;32mI (18098) tensorflow: input[3]: 0.219608[0m
+[0;32mI (18108) tensorflow: input[4]: 0.227451[0m
+[0;32mI (18108) tensorflow: input[5]: 0.639216[0m
+[0;32mI (18118) tensorflow: input[6]: 0.552941[0m
+[0;32mI (18118) tensorflow: input[7]: 0.396078[0m
+[0;32mI (18128) tensorflow: input[8]: 0.623529[0m
+[0;32mI (18128) tensorflow: input[9]: 0.886275[0m
+[0;32mI (18138) tensorflow: img_get done[0m
+[0;32mI (19908) tensorflow: Output tensor[0m
+[0;32mI (19918) tensorflow: 0: 0.996094
+[0m
+[0;32mI (19918) tensorflow: 1: 0.000000
+[0m
+[0;32mI (19918) tensorflow: 2: 0.000000
+[0m
+[0;32mI (20418) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (20418) tensorflow: img_get[0m
+[0;31mE (20768) camera: img_get_float[0m
+[0;32mI (21028) tensorflow: First 10 input values:[0m
+[0;32mI (21028) tensorflow: input[0]: 0.129412[0m
+[0;32mI (21028) tensorflow: input[1]: 0.635294[0m
+[0;32mI (21028) tensorflow: input[2]: 0.094118[0m
+[0;32mI (21038) tensorflow: input[3]: 0.905882[0m
+[0;32mI (21038) tensorflow: input[4]: 0.635294[0m
+[0;32mI (21048) tensorflow: input[5]: 0.062745[0m
+[0;32mI (21048) tensorflow: input[6]: 0.290196[0m
+[0;32mI (21058) tensorflow: input[7]: 0.070588[0m
+[0;32mI (21058) tensorflow: input[8]: 0.180392[0m
+[0;32mI (21058) tensorflow: input[9]: 0.286275[0m
+[0;32mI (21068) tensorflow: img_get done[0m
+[0;32mI (22848) tensorflow: Output tensor[0m
+[0;32mI (22848) tensorflow: 0: 0.996094
+[0m
+[0;32mI (22848) tensorflow: 1: 0.000000
+[0m
+[0;32mI (22848) tensorflow: 2: 0.000000
+[0m
+[0;32mI (23348) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (23348) tensorflow: img_get[0m
+[0;31mE (23918) camera: img_get_float[0m
+[0;32mI (24188) tensorflow: First 10 input values:[0m
+[0;32mI (24188) tensorflow: input[0]: 1.000000[0m
+[0;32mI (24188) tensorflow: input[1]: 0.729412[0m
+[0;32mI (24188) tensorflow: input[2]: 0.741176[0m
+[0;32mI (24188) tensorflow: input[3]: 0.784314[0m
+[0;32mI (24198) tensorflow: input[4]: 0.811765[0m
+[0;32mI (24198) tensorflow: input[5]: 0.301961[0m
+[0;32mI (24208) tensorflow: input[6]: 0.584314[0m
+[0;32mI (24208) tensorflow: input[7]: 0.360784[0m
+[0;32mI (24218) tensorflow: input[8]: 0.498039[0m
+[0;32mI (24218) tensorflow: input[9]: 0.501961[0m
+[0;32mI (24228) tensorflow: img_get done[0m
+[0;32mI (26008) tensorflow: Output tensor[0m
+[0;32mI (26008) tensorflow: 0: 0.996094
+[0m
+[0;32mI (26008) tensorflow: 1: 0.000000
+[0m
+[0;32mI (26008) tensorflow: 2: 0.000000
+[0m
+[0;32mI (26508) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (26508) tensorflow: img_get[0m
+[0;31mE (26628) camera: img_get_float[0m
+[0;32mI (26888) tensorflow: First 10 input values:[0m
+[0;32mI (26888) tensorflow: input[0]: 0.388235[0m
+[0;32mI (26888) tensorflow: input[1]: 0.764706[0m
+[0;32mI (26898) tensorflow: input[2]: 0.611765[0m
+[0;32mI (26898) tensorflow: input[3]: 0.894118[0m
+[0;32mI (26908) tensorflow: input[4]: 0.490196[0m
+[0;32mI (26908) tensorflow: input[5]: 0.270588[0m
+[0;32mI (26918) tensorflow: input[6]: 0.474510[0m
+[0;32mI (26918) tensorflow: input[7]: 0.360784[0m
+[0;32mI (26918) tensorflow: input[8]: 0.760784[0m
+[0;32mI (26928) tensorflow: input[9]: 0.580392[0m
+[0;32mI (26928) tensorflow: img_get done[0m
+[0;32mI (28708) tensorflow: Output tensor[0m
+[0;32mI (28708) tensorflow: 0: 0.996094
+[0m
+[0;32mI (28708) tensorflow: 1: 0.000000
+[0m
+[0;32mI (28718) tensorflow: 2: 0.000000
+[0m
+[0;32mI (29218) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (29218) tensorflow: img_get[0m
+[0;31mE (29558) camera: img_get_float[0m
+[0;32mI (29828) tensorflow: First 10 input values:[0m
+[0;32mI (29828) tensorflow: input[0]: 0.549020[0m
+[0;32mI (29828) tensorflow: input[1]: 0.666667[0m
+[0;32mI (29828) tensorflow: input[2]: 0.388235[0m
+[0;32mI (29828) tensorflow: input[3]: 0.231373[0m
+[0;32mI (29838) tensorflow: input[4]: 0.000000[0m
+[0;32mI (29838) tensorflow: input[5]: 0.062745[0m
+[0;32mI (29848) tensorflow: input[6]: 0.462745[0m
+[0;32mI (29848) tensorflow: input[7]: 0.000000[0m
+[0;32mI (29858) tensorflow: input[8]: 0.062745[0m
+[0;32mI (29858) tensorflow: input[9]: 0.686275[0m
+[0;32mI (29868) tensorflow: img_get done[0m
+[0;32mI (31638) tensorflow: Output tensor[0m
+[0;32mI (31638) tensorflow: 0: 0.996094
+[0m
+[0;32mI (31648) tensorflow: 1: 0.000000
+[0m
+[0;32mI (31648) tensorflow: 2: 0.000000
+[0m
+[0;32mI (32148) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (32148) tensorflow: img_get[0m
+[0;31mE (32498) camera: img_get_float[0m
+[0;32mI (32758) tensorflow: First 10 input values:[0m
+[0;32mI (32758) tensorflow: input[0]: 0.031373[0m
+[0;32mI (32758) tensorflow: input[1]: 0.937255[0m
+[0;32mI (32758) tensorflow: input[2]: 0.160784[0m
+[0;32mI (32768) tensorflow: input[3]: 0.321569[0m
+[0;32mI (32768) tensorflow: input[4]: 0.047059[0m
+[0;32mI (32778) tensorflow: input[5]: 0.419608[0m
+[0;32mI (32778) tensorflow: input[6]: 0.235294[0m
+[0;32mI (32778) tensorflow: input[7]: 0.937255[0m
+[0;32mI (32788) tensorflow: input[8]: 0.678431[0m
+[0;32mI (32788) tensorflow: input[9]: 0.270588[0m
+[0;32mI (32798) tensorflow: img_get done[0m
+[0;32mI (34578) tensorflow: Output tensor[0m
+[0;32mI (34578) tensorflow: 0: 0.996094
+[0m
+[0;32mI (34578) tensorflow: 1: 0.000000
+[0m
+[0;32mI (34578) tensorflow: 2: 0.000000
+[0m
+[0;32mI (35078) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (35078) tensorflow: img_get[0m
+[0;31mE (35648) camera: img_get_float[0m
+[0;32mI (35918) tensorflow: First 10 input values:[0m
+[0;32mI (35918) tensorflow: input[0]: 0.258824[0m
+[0;32mI (35918) tensorflow: input[1]: 0.125490[0m
+[0;32mI (35918) tensorflow: input[2]: 0.000000[0m
+[0;32mI (35918) tensorflow: input[3]: 0.235294[0m
+[0;32mI (35928) tensorflow: input[4]: 0.098039[0m
+[0;32mI (35928) tensorflow: input[5]: 0.227451[0m
+[0;32mI (35938) tensorflow: input[6]: 0.827451[0m
+[0;32mI (35938) tensorflow: input[7]: 0.125490[0m
+[0;32mI (35948) tensorflow: input[8]: 0.149020[0m
+[0;32mI (35948) tensorflow: input[9]: 0.337255[0m
+[0;32mI (35958) tensorflow: img_get done[0m
+[0;32mI (37728) tensorflow: Output tensor[0m
+[0;32mI (37738) tensorflow: 0: 0.996094
+[0m
+[0;32mI (37738) tensorflow: 1: 0.000000
+[0m
+[0;32mI (37738) tensorflow: 2: 0.000000
+[0m
+[0;32mI (38238) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (38238) tensorflow: img_get[0m
+[0;31mE (38588) camera: img_get_float[0m
+[0;32mI (38848) tensorflow: First 10 input values:[0m
+[0;32mI (38848) tensorflow: input[0]: 0.000000[0m
+[0;32mI (38848) tensorflow: input[1]: 0.254902[0m
+[0;32mI (38848) tensorflow: input[2]: 0.000000[0m
+[0;32mI (38858) tensorflow: input[3]: 0.611765[0m
+[0;32mI (38858) tensorflow: input[4]: 0.023529[0m
+[0;32mI (38868) tensorflow: input[5]: 0.003922[0m
+[0;32mI (38868) tensorflow: input[6]: 0.333333[0m
+[0;32mI (38878) tensorflow: input[7]: 0.200000[0m
+[0;32mI (38878) tensorflow: input[8]: 0.329412[0m
+[0;32mI (38878) tensorflow: input[9]: 0.631373[0m
+[0;32mI (38888) tensorflow: img_get done[0m
+[0;32mI (40668) tensorflow: Output tensor[0m
+[0;32mI (40668) tensorflow: 0: 0.996094
+[0m
+[0;32mI (40668) tensorflow: 1: 0.000000
+[0m
+[0;32mI (40668) tensorflow: 2: 0.000000
+[0m
+[0;32mI (41168) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (41168) tensorflow: img_get[0m
+[0;31mE (41738) camera: img_get_float[0m
+[0;32mI (42008) tensorflow: First 10 input values:[0m
+[0;32mI (42008) tensorflow: input[0]: 0.776471[0m
+[0;32mI (42008) tensorflow: input[1]: 0.254902[0m
+[0;32mI (42008) tensorflow: input[2]: 0.000000[0m
+[0;32mI (42008) tensorflow: input[3]: 0.850980[0m
+[0;32mI (42018) tensorflow: input[4]: 0.607843[0m
+[0;32mI (42018) tensorflow: input[5]: 0.000000[0m
+[0;32mI (42028) tensorflow: input[6]: 0.752941[0m
+[0;32mI (42028) tensorflow: input[7]: 0.105882[0m
+[0;32mI (42038) tensorflow: input[8]: 0.000000[0m
+[0;32mI (42038) tensorflow: input[9]: 0.631373[0m
+[0;32mI (42048) tensorflow: img_get done[0m
+[0;32mI (43828) tensorflow: Output tensor[0m
+[0;32mI (43828) tensorflow: 0: 0.996094
+[0m
+[0;32mI (43828) tensorflow: 1: 0.000000
+[0m
+[0;32mI (43828) tensorflow: 2: 0.000000
+[0m
+[0;32mI (44328) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (44328) tensorflow: img_get[0m
+[0;31mE (44448) camera: img_get_float[0m
+[0;32mI (44708) tensorflow: First 10 input values:[0m
+[0;32mI (44708) tensorflow: input[0]: 0.741176[0m
+[0;32mI (44708) tensorflow: input[1]: 0.443137[0m
+[0;32mI (44718) tensorflow: input[2]: 0.968627[0m
+[0;32mI (44718) tensorflow: input[3]: 0.282353[0m
+[0;32mI (44728) tensorflow: input[4]: 0.686275[0m
+[0;32mI (44728) tensorflow: input[5]: 0.215686[0m
+[0;32mI (44738) tensorflow: input[6]: 0.145098[0m
+[0;32mI (44738) tensorflow: input[7]: 0.713726[0m
+[0;32mI (44738) tensorflow: input[8]: 0.482353[0m
+[0;32mI (44748) tensorflow: input[9]: 0.094118[0m
+[0;32mI (44748) tensorflow: img_get done[0m
+[0;32mI (46528) tensorflow: Output tensor[0m
+[0;32mI (46528) tensorflow: 0: 0.042969
+[0m
+[0;32mI (46538) tensorflow: 1: 0.957031
+[0m
+[0;32mI (46538) tensorflow: 2: 0.000000
+[0m
+[0;32mI (47038) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (47038) tensorflow: img_get[0m
+[0;31mE (47378) camera: img_get_float[0m
+[0;32mI (47648) tensorflow: First 10 input values:[0m
+[0;32mI (47648) tensorflow: input[0]: 0.549020[0m
+[0;32mI (47648) tensorflow: input[1]: 0.411765[0m
+[0;32mI (47648) tensorflow: input[2]: 0.094118[0m
+[0;32mI (47648) tensorflow: input[3]: 0.678431[0m
+[0;32mI (47658) tensorflow: input[4]: 0.411765[0m
+[0;32mI (47658) tensorflow: input[5]: 0.352941[0m
+[0;32mI (47668) tensorflow: input[6]: 0.752941[0m
+[0;32mI (47668) tensorflow: input[7]: 0.337255[0m
+[0;32mI (47678) tensorflow: input[8]: 0.352941[0m
+[0;32mI (47678) tensorflow: input[9]: 0.807843[0m
+[0;32mI (47688) tensorflow: img_get done[0m
+[0;32mI (49458) tensorflow: Output tensor[0m
+[0;32mI (49458) tensorflow: 0: 0.996094
+[0m
+[0;32mI (49468) tensorflow: 1: 0.000000
+[0m
+[0;32mI (49468) tensorflow: 2: 0.000000
+[0m
+[0;32mI (49968) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (49968) tensorflow: img_get[0m
+[0;31mE (50318) camera: img_get_float[0m
+[0;32mI (50578) tensorflow: First 10 input values:[0m
+[0;32mI (50578) tensorflow: input[0]: 0.549020[0m
+[0;32mI (50578) tensorflow: input[1]: 0.270588[0m
+[0;32mI (50578) tensorflow: input[2]: 0.870588[0m
+[0;32mI (50588) tensorflow: input[3]: 0.549020[0m
+[0;32mI (50588) tensorflow: input[4]: 0.411765[0m
+[0;32mI (50598) tensorflow: input[5]: 0.094118[0m
+[0;32mI (50598) tensorflow: input[6]: 0.549020[0m
+[0;32mI (50598) tensorflow: input[7]: 0.411765[0m
+[0;32mI (50608) tensorflow: input[8]: 0.243137[0m
+[0;32mI (50608) tensorflow: input[9]: 0.549020[0m
+[0;32mI (50618) tensorflow: img_get done[0m
+[0;32mI (52398) tensorflow: Output tensor[0m
+[0;32mI (52398) tensorflow: 0: 0.996094
+[0m
+[0;32mI (52398) tensorflow: 1: 0.000000
+[0m
+[0;32mI (52398) tensorflow: 2: 0.000000
+[0m
+[0;32mI (52898) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (52898) tensorflow: img_get[0m
+[0;31mE (53468) camera: img_get_float[0m
+[0;32mI (53738) tensorflow: First 10 input values:[0m
+[0;32mI (53738) tensorflow: input[0]: 0.031373[0m
+[0;32mI (53738) tensorflow: input[1]: 0.666667[0m
+[0;32mI (53738) tensorflow: input[2]: 0.388235[0m
+[0;32mI (53738) tensorflow: input[3]: 0.031373[0m
+[0;32mI (53748) tensorflow: input[4]: 0.666667[0m
+[0;32mI (53748) tensorflow: input[5]: 0.647059[0m
+[0;32mI (53758) tensorflow: input[6]: 0.411765[0m
+[0;32mI (53758) tensorflow: input[7]: 0.717647[0m
+[0;32mI (53768) tensorflow: input[8]: 0.478431[0m
+[0;32mI (53768) tensorflow: input[9]: 0.031373[0m
+[0;32mI (53778) tensorflow: img_get done[0m
+[0;32mI (55548) tensorflow: Output tensor[0m
+[0;32mI (55558) tensorflow: 0: 0.996094
+[0m
+[0;32mI (55558) tensorflow: 1: 0.000000
+[0m
+[0;32mI (55558) tensorflow: 2: 0.000000
+[0m
+[0;32mI (56058) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (56058) tensorflow: img_get[0m
+[0;31mE (56408) camera: img_get_float[0m
+[0;32mI (56668) tensorflow: First 10 input values:[0m
+[0;32mI (56668) tensorflow: input[0]: 0.129412[0m
+[0;32mI (56668) tensorflow: input[1]: 0.000000[0m
+[0;32mI (56668) tensorflow: input[2]: 0.000000[0m
+[0;32mI (56678) tensorflow: input[3]: 0.129412[0m
+[0;32mI (56678) tensorflow: input[4]: 0.000000[0m
+[0;32mI (56688) tensorflow: input[5]: 0.000000[0m
+[0;32mI (56688) tensorflow: input[6]: 0.000000[0m
+[0;32mI (56698) tensorflow: input[7]: 0.000000[0m
+[0;32mI (56698) tensorflow: input[8]: 0.000000[0m
+[0;32mI (56698) tensorflow: input[9]: 0.129412[0m
+[0;32mI (56708) tensorflow: img_get done[0m
+[0;32mI (58488) tensorflow: Output tensor[0m
+[0;32mI (58488) tensorflow: 0: 0.996094
+[0m
+[0;32mI (58488) tensorflow: 1: 0.000000
+[0m
+[0;32mI (58488) tensorflow: 2: 0.000000
+[0m
+[0;32mI (58988) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (58988) tensorflow: img_get[0m
+[0;31mE (59558) camera: img_get_float[0m
+[0;32mI (59828) tensorflow: First 10 input values:[0m
+[0;32mI (59828) tensorflow: input[0]: 0.129412[0m
+[0;32mI (59828) tensorflow: input[1]: 0.000000[0m
+[0;32mI (59828) tensorflow: input[2]: 0.000000[0m
+[0;32mI (59828) tensorflow: input[3]: 0.129412[0m
+[0;32mI (59838) tensorflow: input[4]: 0.000000[0m
+[0;32mI (59838) tensorflow: input[5]: 0.000000[0m
+[0;32mI (59848) tensorflow: input[6]: 0.129412[0m
+[0;32mI (59848) tensorflow: input[7]: 0.000000[0m
+[0;32mI (59858) tensorflow: input[8]: 0.000000[0m
+[0;32mI (59858) tensorflow: input[9]: 0.129412[0m
+[0;32mI (59868) tensorflow: img_get done[0m

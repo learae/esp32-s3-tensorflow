@@ -1,0 +1,74 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Processing 4 dependencies:
+NOTICE: [1/4] espressif/esp-nn (1.1.1)
+NOTICE: [2/4] espressif/esp-tflite-micro (1.3.3~1)
+NOTICE: [3/4] espressif/esp32-camera (2.0.15)
+NOTICE: [4/4] idf (5.2.0)
+-- Project sdkconfig file /home/vl/esp32/project_my/esp32s3_lvgl/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "esp32s3_lvgl" version: 1
+-- Adding linker script /home/vl/esp32/project_my/esp32s3_lvgl/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bsp bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__esp-nn espressif__esp-tflite-micro espressif__esp32-camera esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lvgl lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tensorflow_lite touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/vl/esp32/esp-idf/components/app_trace /home/vl/esp32/esp-idf/components/app_update /home/vl/esp32/esp-idf/components/bootloader /home/vl/esp32/esp-idf/components/bootloader_support /home/vl/esp32/project_my/esp32s3_lvgl/components/bsp /home/vl/esp32/esp-idf/components/bt /home/vl/esp32/esp-idf/components/cmock /home/vl/esp32/esp-idf/components/console /home/vl/esp32/esp-idf/components/cxx /home/vl/esp32/esp-idf/components/driver /home/vl/esp32/esp-idf/components/efuse /home/vl/esp32/esp-idf/components/esp-tls /home/vl/esp32/esp-idf/components/esp_adc /home/vl/esp32/esp-idf/components/esp_app_format /home/vl/esp32/esp-idf/components/esp_bootloader_format /home/vl/esp32/esp-idf/components/esp_coex /home/vl/esp32/esp-idf/components/esp_common /home/vl/esp32/esp-idf/components/esp_eth /home/vl/esp32/esp-idf/components/esp_event /home/vl/esp32/esp-idf/components/esp_gdbstub /home/vl/esp32/esp-idf/components/esp_hid /home/vl/esp32/esp-idf/components/esp_http_client /home/vl/esp32/esp-idf/components/esp_http_server /home/vl/esp32/esp-idf/components/esp_https_ota /home/vl/esp32/esp-idf/components/esp_https_server /home/vl/esp32/esp-idf/components/esp_hw_support /home/vl/esp32/esp-idf/components/esp_lcd /home/vl/esp32/esp-idf/components/esp_local_ctrl /home/vl/esp32/esp-idf/components/esp_mm /home/vl/esp32/esp-idf/components/esp_netif /home/vl/esp32/esp-idf/components/esp_netif_stack /home/vl/esp32/esp-idf/components/esp_partition /home/vl/esp32/esp-idf/components/esp_phy /home/vl/esp32/esp-idf/components/esp_pm /home/vl/esp32/esp-idf/components/esp_psram /home/vl/esp32/esp-idf/components/esp_ringbuf /home/vl/esp32/esp-idf/components/esp_rom /home/vl/esp32/esp-idf/components/esp_system /home/vl/esp32/esp-idf/components/esp_timer /home/vl/esp32/esp-idf/components/esp_wifi /home/vl/esp32/esp-idf/components/espcoredump /home/vl/esp32/project_my/esp32s3_lvgl/managed_components/espressif__esp-nn /home/vl/esp32/project_my/esp32s3_lvgl/managed_components/espressif__esp-tflite-micro /home/vl/esp32/project_my/esp32s3_lvgl/managed_components/espressif__esp32-camera /home/vl/esp32/esp-idf/components/esptool_py /home/vl/esp32/esp-idf/components/fatfs /home/vl/esp32/esp-idf/components/freertos /home/vl/esp32/esp-idf/components/hal /home/vl/esp32/esp-idf/components/heap /home/vl/esp32/esp-idf/components/http_parser /home/vl/esp32/esp-idf/components/idf_test /home/vl/esp32/esp-idf/components/ieee802154 /home/vl/esp32/esp-idf/components/json /home/vl/esp32/esp-idf/components/log /home/vl/esp32/project_my/esp32s3_lvgl/components/lvgl /home/vl/esp32/esp-idf/components/lwip /home/vl/esp32/project_my/esp32s3_lvgl/main /home/vl/esp32/esp-idf/components/mbedtls /home/vl/esp32/esp-idf/components/mqtt /home/vl/esp32/esp-idf/components/newlib /home/vl/esp32/esp-idf/components/nvs_flash /home/vl/esp32/esp-idf/components/nvs_sec_provider /home/vl/esp32/esp-idf/components/openthread /home/vl/esp32/esp-idf/components/partition_table /home/vl/esp32/esp-idf/components/perfmon /home/vl/esp32/esp-idf/components/protobuf-c /home/vl/esp32/esp-idf/components/protocomm /home/vl/esp32/esp-idf/components/pthread /home/vl/esp32/esp-idf/components/sdmmc /home/vl/esp32/esp-idf/components/soc /home/vl/esp32/esp-idf/components/spi_flash /home/vl/esp32/esp-idf/components/spiffs /home/vl/esp32/esp-idf/components/tcp_transport /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite /home/vl/esp32/esp-idf/components/touch_element /home/vl/esp32/esp-idf/components/ulp /home/vl/esp32/esp-idf/components/unity /home/vl/esp32/esp-idf/components/usb /home/vl/esp32/esp-idf/components/vfs /home/vl/esp32/esp-idf/components/wear_levelling /home/vl/esp32/esp-idf/components/wifi_provisioning /home/vl/esp32/esp-idf/components/wpa_supplicant /home/vl/esp32/esp-idf/components/xtensa
+-- Configuring done (14.1s)
+-- Generating done (1.4s)
+-- Build files have been written to: /home/vl/esp32/project_my/esp32s3_lvgl/build
+[1/9] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+-- Project sdkconfig file /home/vl/esp32/project_my/esp32s3_lvgl/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Adding linker script /home/vl/esp32/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld
+-- Adding linker script /home/vl/esp32/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/vl/esp32/esp-idf/components/bootloader /home/vl/esp32/esp-idf/components/bootloader_support /home/vl/esp32/esp-idf/components/efuse /home/vl/esp32/esp-idf/components/esp_app_format /home/vl/esp32/esp-idf/components/esp_bootloader_format /home/vl/esp32/esp-idf/components/esp_common /home/vl/esp32/esp-idf/components/esp_hw_support /home/vl/esp32/esp-idf/components/esp_rom /home/vl/esp32/esp-idf/components/esp_system /home/vl/esp32/esp-idf/components/esptool_py /home/vl/esp32/esp-idf/components/freertos /home/vl/esp32/esp-idf/components/hal /home/vl/esp32/esp-idf/components/log /home/vl/esp32/esp-idf/components/bootloader/subproject/main /home/vl/esp32/esp-idf/components/bootloader/subproject/components/micro-ecc /home/vl/esp32/esp-idf/components/newlib /home/vl/esp32/esp-idf/components/partition_table /home/vl/esp32/esp-idf/components/soc /home/vl/esp32/esp-idf/components/spi_flash /home/vl/esp32/esp-idf/components/xtensa
+-- Configuring done (7.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/vl/esp32/project_my/esp32s3_lvgl/build/bootloader
+[1/1] cd /home/vl/esp32/project_my/esp32s3_lvgl/build/bootloader/esp-idf/esptool_py && /home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/vl/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/vl/esp32/project_my/esp32s3_lvgl/build/bootloader/bootloader.bin
+Bootloader binary size 0x5240 bytes. 0x2dc0 bytes (36%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building CXX object esp-idf/tensorflow_lite/CMakeFiles/__idf_tensorflow_lite.dir/function.cc.obj
+In file included from /home/vl/esp32/project_my/esp32s3_lvgl/components/lvgl/src/core/lv_obj.h:140,
+                 from /home/vl/esp32/project_my/esp32s3_lvgl/components/lvgl/lvgl.h:35,
+                 from /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/../bsp/ov5640.h:5,
+                 from /home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:12:
+/home/vl/esp32/project_my/esp32s3_lvgl/components/lvgl/src/core/lv_obj_style.h: In function 'void lv_obj_remove_style_all(_lv_obj_t*)':
+/home/vl/esp32/project_my/esp32s3_lvgl/components/lvgl/src/core/lv_obj_style.h:94:48: warning: bitwise operation between different enumeration types '<unnamed enum>' and '<unnamed enum>' is deprecated [-Wdeprecated-enum-enum-conversion]
+   94 |     lv_obj_remove_style(obj, NULL, LV_PART_ANY | LV_STATE_ANY);
+      |                                    ~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc: In function 'void loop()':
+/home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:90:13: warning: unsigned conversion from 'int' to 'uint8_t' {aka 'unsigned char'} changes value from '480' to '224' [-Woverflow]
+   90 |     img_get(480, 320, (int8_t *)input->data.int8);
+      |             ^~~
+/home/vl/esp32/project_my/esp32s3_lvgl/components/tensorflow_lite/function.cc:90:18: warning: unsigned conversion from 'int' to 'uint8_t' {aka 'unsigned char'} changes value from '320' to '64' [-Woverflow]
+   90 |     img_get(480, 320, (int8_t *)input->data.int8);
+      |                  ^~~
+[5/9] Linking C static library esp-idf/tensorflow_lite/libtensorflow_lite.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable esp32s3_lvgl.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/vl/esp32/project_my/esp32s3_lvgl/build/esp32s3_lvgl.bin
+[9/9] cd /home/vl/esp32/project_my/esp32s3_lvgl/build/esp-idf/esptool_py && /home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/vl/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/vl/esp32/project_my/esp32s3_lvgl/build/partition_table/partition-table.bin /home/vl/esp32/project_my/esp32s3_lvgl/build/esp32s3_lvgl.bin
+esp32s3_lvgl.bin binary size 0xae5c0 bytes. Smallest app partition is 0x800000 bytes. 0x751a40 bytes (91%) free.

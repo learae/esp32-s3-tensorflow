@@ -1,0 +1,653 @@
+[0;32mI (125) esp_image: segment 1: paddr=0002cb1c vaddr=3fc965ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x42008b49
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d98
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May  6 2025 12:17:23[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00800000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c070020 size=1caf4h (117492) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0002cb1c vaddr=3fc96500 size=034fch ( 13564) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=6ad20h (437536) map[0m
+[0;32mI (204) esp_image: segment 3: paddr=0009ad48 vaddr=3fc999fc size=1a13ch (106812) load[0m
+[0;32mI (226) esp_image: segment 4: paddr=000b4e8c vaddr=40374000 size=124dch ( 74972) load[0m
+[0;32mI (256) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (256) boot: Disabling RNG early entropy source...[0m
+[0;32mI (268) cpu_start: Multicore app[0m
+[0;32mI (268) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (268) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (271) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (277) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (282) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (287) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (292) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (298) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (304) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (309) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (316) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (321) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (325) esp_psram: Speed: 40MHz[0m
+[0;32mI (1060) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1069) cpu_start: Pro cpu start user code[0m
+[0;32mI (1069) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (1070) cpu_start: Application information:[0m
+[0;32mI (1073) cpu_start: Project name:     esp32s3_lvgl[0m
+[0;32mI (1078) cpu_start: App version:      1[0m
+[0;32mI (1083) cpu_start: Compile time:     May 11 2025 11:12:29[0m
+[0;32mI (1089) cpu_start: ELF file SHA256:  d0db18e0d...[0m
+[0;32mI (1094) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (1099) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (1104) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (1109) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (1114) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1121) heap_init: At 3FCB4D40 len 000349D0 (210 KiB): RAM[0m
+[0;32mI (1127) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1133) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1140) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (1146) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1154) spi_flash: detected chip: winbond[0m
+[0;32mI (1158) spi_flash: flash io: dio[0m
+[0;33mW (1162) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (1173) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1180) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1187) main_task: Started on CPU0[0m
+[0;32mI (1197) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1197) main_task: Calling app_main()[0m
+[0;32mI (1207) lvgl_example: SPI BUS init[0m
+[0;32mI (1207) lvgl_example: Install panel IO[0m
+[0;32mI (1217) gpio: GPIO[42]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1227) lvgl_example: Install ST7789 panel driver[0m
+[0;32mI (1347) cst816t: 	Chip ID: 0xb6[0m
+[0;32mI (1347) cst816t: 	Firmware version: 0x01[0m
+[0;32mI (1347) cst816t: 	Factory ID: 0x04[0m
+[0;32mI (1347) lvgl_example: Install LVGL tick timer[0m
+[0;32mI (1347) lvgl_example: LCD brightness set to 80%[0m
+[0;32mI (1357) s3 ll_cam: DMA Channel=1[0m
+[0;32mI (1357) cam_hal: cam init ok[0m
+[0;32mI (1367) sccb: pin_sda 21 pin_scl 16[0m
+[0;32mI (1367) sccb: sccb_i2c_port=1[0m
+[0;32mI (1377) gpio: GPIO[17]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1407) camera: Detected camera at address=0x3c[0m
+[0;32mI (1407) ov3660: Mismatch PID=0x5640[0m
+[0;32mI (1407) camera: Detected OV5640 camera[0m
+[0;32mI (1407) camera: Camera PID=0x5640 VER=0x00 MIDL=0x00 MIDH=0x00[0m
+[0;32mI (2097) s3 ll_cam: node_size: 3840, nodes_per_line: 1, lines_per_node: 4[0m
+[0;32mI (2097) s3 ll_cam: dma_half_buffer_min:  3840, dma_half_buffer: 15360, lines_per_half_buffer: 16, dma_buffer_size: 30720[0m
+[0;32mI (2097) cam_hal: buffer_size: 30720, half_buffer_size: 15360, node_buffer_size: 3840, node_cnt: 8, total_cnt: 20[0m
+[0;32mI (2107) cam_hal: Allocating 307200 Byte frame buffer in PSRAM[0m
+[0;32mI (2117) cam_hal: cam config ok[0m
+[0;32mI (2137) ov5640: Set PLL: bypass: 0, multiplier: 8, sys_div: 1, pre_div: 1, root_2x: 0, pclk_root_div: 1, pclk_manual: 1, pclk_div: 4[0m
+[0;32mI (2137) ov5640: Calculated XVCLK: 20000000 Hz, REFIN: 20000000 Hz, VCO: 160000000 Hz, PLL_CLK: 64000000 Hz, SYSCLK: 16000000 Hz, PCLK: 8000000 Hz[0m
+[0;32mI (2177) tensorflow: Starting TensorFlow Lite Micro task...[0m
+[0;32mI (2177) tensorflow: Model size[0m
+[0;32mI (2177) tensorflow: input dims: 1 100 100 3[0m
+[0;32mI (2177) tensorflow: input type: 1, input bytes: 120000[0m
+[0;32mI (2187) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (2187) tensorflow: img_get[0m
+[0;32mI (2197) lvgl_example: tensorflow_task created successfully[0m
+[0;32mI (2197) main_task: Returned from app_main()[0m
+[0;32mI (2977) tensorflow: img_get done[0m
+[0;32mI (4737) tensorflow: Output tensor[0m
+[0;32mI (4737) tensorflow: 0: 0.996094
+[0m
+[0;32mI (4737) tensorflow: 1: 0.000000
+[0m
+[0;32mI (4737) tensorflow: 2: 0.000000
+[0m
+[0;32mI (5237) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (5237) tensorflow: img_get[0m
+[0;32mI (5687) tensorflow: img_get done[0m
+[0;32mI (7447) tensorflow: Output tensor[0m
+[0;32mI (7447) tensorflow: 0: 0.996094
+[0m
+[0;32mI (7457) tensorflow: 1: 0.000000
+[0m
+[0;32mI (7457) tensorflow: 2: 0.000000
+[0m
+[0;32mI (7957) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (7957) tensorflow: img_get[0m
+[0;32mI (8617) tensorflow: img_get done[0m
+[0;32mI (10377) tensorflow: Output tensor[0m
+[0;32mI (10377) tensorflow: 0: 0.992188
+[0m
+[0;32mI (10377) tensorflow: 1: 0.007812
+[0m
+[0;32mI (10377) tensorflow: 2: 0.000000
+[0m
+[0;32mI (10877) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (10877) tensorflow: img_get[0m
+[0;32mI (11327) tensorflow: img_get done[0m
+[0;32mI (13087) tensorflow: Output tensor[0m
+[0;32mI (13087) tensorflow: 0: 0.996094
+[0m
+[0;32mI (13087) tensorflow: 1: 0.003906
+[0m
+[0;32mI (13097) tensorflow: 2: 0.000000
+[0m
+[0;32mI (13597) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (13597) tensorflow: img_get[0m
+[0;32mI (14257) tensorflow: img_get done[0m
+[0;32mI (16017) tensorflow: Output tensor[0m
+[0;32mI (16017) tensorflow: 0: 0.996094
+[0m
+[0;32mI (16017) tensorflow: 1: 0.000000
+[0m
+[0;32mI (16017) tensorflow: 2: 0.000000
+[0m
+[0;32mI (16517) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (16517) tensorflow: img_get[0m
+[0;32mI (16967) tensorflow: img_get done[0m
+[0;32mI (18727) tensorflow: Output tensor[0m
+[0;32mI (18727) tensorflow: 0: 0.996094
+[0m
+[0;32mI (18727) tensorflow: 1: 0.003906
+[0m
+[0;32mI (18727) tensorflow: 2: 0.000000
+[0m
+[0;32mI (19227) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (19227) tensorflow: img_get[0m
+[0;32mI (19897) tensorflow: img_get done[0m
+[0;32mI (21657) tensorflow: Output tensor[0m
+[0;32mI (21657) tensorflow: 0: 0.996094
+[0m
+[0;32mI (21667) tensorflow: 1: 0.003906
+[0m
+[0;32mI (21667) tensorflow: 2: 0.000000
+[0m
+[0;32mI (22167) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (22167) tensorflow: img_get[0m
+[0;32mI (22827) tensorflow: img_get done[0m
+[0;32mI (24587) tensorflow: Output tensor[0m
+[0;32mI (24587) tensorflow: 0: 0.996094
+[0m
+[0;32mI (24587) tensorflow: 1: 0.000000
+[0m
+[0;32mI (24587) tensorflow: 2: 0.000000
+[0m
+[0;32mI (25097) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (25097) tensorflow: img_get[0m
+[0;32mI (25537) tensorflow: img_get done[0m
+[0;32mI (27297) tensorflow: Output tensor[0m
+[0;32mI (27297) tensorflow: 0: 0.996094
+[0m
+[0;32mI (27307) tensorflow: 1: 0.000000
+[0m
+[0;32mI (27307) tensorflow: 2: 0.000000
+[0m
+[0;32mI (27807) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (27807) tensorflow: img_get[0m
+[0;32mI (28467) tensorflow: img_get done[0m
+[0;32mI (30227) tensorflow: Output tensor[0m
+[0;32mI (30227) tensorflow: 0: 0.996094
+[0m
+[0;32mI (30227) tensorflow: 1: 0.003906
+[0m
+[0;32mI (30227) tensorflow: 2: 0.000000
+[0m
+[0;32mI (30727) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (30727) tensorflow: img_get[0m
+[0;32mI (31177) tensorflow: img_get done[0m
+[0;32mI (32937) tensorflow: Output tensor[0m
+[0;32mI (32937) tensorflow: 0: 0.996094
+[0m
+[0;32mI (32937) tensorflow: 1: 0.000000
+[0m
+[0;32mI (32947) tensorflow: 2: 0.000000
+[0m
+[0;32mI (33447) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (33447) tensorflow: img_get[0m
+[0;32mI (34107) tensorflow: img_get done[0m
+[0;32mI (35867) tensorflow: Output tensor[0m
+[0;32mI (35867) tensorflow: 0: 0.996094
+[0m
+[0;32mI (35867) tensorflow: 1: 0.003906
+[0m
+[0;32mI (35867) tensorflow: 2: 0.000000
+[0m
+[0;32mI (36367) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (36367) tensorflow: img_get[0m
+[0;32mI (36817) tensorflow: img_get done[0m
+[0;32mI (38577) tensorflow: Output tensor[0m
+[0;32mI (38577) tensorflow: 0: 0.996094
+[0m
+[0;32mI (38577) tensorflow: 1: 0.003906
+[0m
+[0;32mI (38577) tensorflow: 2: 0.000000
+[0m
+[0;32mI (39077) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (39077) tensorflow: img_get[0m
+[0;32mI (39747) tensorflow: img_get done[0m
+[0;32mI (41507) tensorflow: Output tensor[0m
+[0;32mI (41507) tensorflow: 0: 0.996094
+[0m
+[0;32mI (41517) tensorflow: 1: 0.003906
+[0m
+[0;32mI (41517) tensorflow: 2: 0.000000
+[0m
+[0;32mI (42017) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (42017) tensorflow: img_get[0m
+[0;32mI (42677) tensorflow: img_get done[0m
+[0;32mI (44437) tensorflow: Output tensor[0m
+[0;32mI (44437) tensorflow: 0: 0.996094
+[0m
+[0;32mI (44437) tensorflow: 1: 0.000000
+[0m
+[0;32mI (44437) tensorflow: 2: 0.000000
+[0m
+[0;32mI (44947) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (44947) tensorflow: img_get[0m
+[0;32mI (45387) tensorflow: img_get done[0m
+[0;32mI (47147) tensorflow: Output tensor[0m
+[0;32mI (47147) tensorflow: 0: 0.996094
+[0m
+[0;32mI (47157) tensorflow: 1: 0.003906
+[0m
+[0;32mI (47157) tensorflow: 2: 0.000000
+[0m
+[0;32mI (47657) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (47657) tensorflow: img_get[0m
+[0;32mI (48317) tensorflow: img_get done[0m
+[0;32mI (50077) tensorflow: Output tensor[0m
+[0;32mI (50077) tensorflow: 0: 0.996094
+[0m
+[0;32mI (50077) tensorflow: 1: 0.000000
+[0m
+[0;32mI (50077) tensorflow: 2: 0.000000
+[0m
+[0;32mI (50577) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (50577) tensorflow: img_get[0m
+[0;32mI (51027) tensorflow: img_get done[0m
+[0;32mI (52787) tensorflow: Output tensor[0m
+[0;32mI (52787) tensorflow: 0: 0.996094
+[0m
+[0;32mI (52787) tensorflow: 1: 0.000000
+[0m
+[0;32mI (52797) tensorflow: 2: 0.000000
+[0m
+[0;32mI (53297) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (53297) tensorflow: img_get[0m
+[0;32mI (53957) tensorflow: img_get done[0m
+[0;32mI (55717) tensorflow: Output tensor[0m
+[0;32mI (55717) tensorflow: 0: 0.988281
+[0m
+[0;32mI (55717) tensorflow: 1: 0.011719
+[0m
+[0;32mI (55717) tensorflow: 2: 0.000000
+[0m
+[0;32mI (56217) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (56217) tensorflow: img_get[0m
+[0;32mI (56667) tensorflow: img_get done[0m
+[0;32mI (58427) tensorflow: Output tensor[0m
+[0;32mI (58427) tensorflow: 0: 0.980469
+[0m
+[0;32mI (58427) tensorflow: 1: 0.019531
+[0m
+[0;32mI (58427) tensorflow: 2: 0.000000
+[0m
+[0;32mI (58927) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (58927) tensorflow: img_get[0m
+[0;32mI (59597) tensorflow: img_get done[0m
+[0;32mI (61357) tensorflow: Output tensor[0m
+[0;32mI (61357) tensorflow: 0: 0.964844
+[0m
+[0;32mI (61357) tensorflow: 1: 0.035156
+[0m
+[0;32mI (61357) tensorflow: 2: 0.000000
+[0m
+[0;32mI (61857) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (61857) tensorflow: img_get[0m
+[0;32mI (62307) tensorflow: img_get done[0m
+[0;32mI (64067) tensorflow: Output tensor[0m
+[0;32mI (64067) tensorflow: 0: 0.980469
+[0m
+[0;32mI (64067) tensorflow: 1: 0.019531
+[0m
+[0;32mI (64067) tensorflow: 2: 0.000000
+[0m
+[0;32mI (64567) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (64567) tensorflow: img_get[0m
+[0;32mI (65237) tensorflow: img_get done[0m
+[0;32mI (66997) tensorflow: Output tensor[0m
+[0;32mI (66997) tensorflow: 0: 0.996094
+[0m
+[0;32mI (67007) tensorflow: 1: 0.003906
+[0m
+[0;32mI (67007) tensorflow: 2: 0.000000
+[0m
+[0;32mI (67507) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (67507) tensorflow: img_get[0m
+[0;32mI (68167) tensorflow: img_get done[0m
+[0;32mI (69927) tensorflow: Output tensor[0m
+[0;32mI (69927) tensorflow: 0: 0.992188
+[0m
+[0;32mI (69927) tensorflow: 1: 0.007812
+[0m
+[0;32mI (69927) tensorflow: 2: 0.000000
+[0m
+[0;32mI (70437) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (70437) tensorflow: img_get[0m
+[0;32mI (70877) tensorflow: img_get done[0m
+[0;32mI (72637) tensorflow: Output tensor[0m
+[0;32mI (72637) tensorflow: 0: 0.976562
+[0m
+[0;32mI (72647) tensorflow: 1: 0.023438
+[0m
+[0;32mI (72647) tensorflow: 2: 0.000000
+[0m
+[0;32mI (73147) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (73147) tensorflow: img_get[0m
+[0;32mI (73807) tensorflow: img_get done[0m
+[0;32mI (75587) tensorflow: Output tensor[0m
+[0;32mI (75587) tensorflow: 0: 0.996094
+[0m
+[0;32mI (75587) tensorflow: 1: 0.000000
+[0m
+[0;32mI (75587) tensorflow: 2: 0.000000
+[0m
+[0;32mI (76087) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (76087) tensorflow: img_get[0m
+[0;32mI (76967) tensorflow: img_get done[0m
+[0;32mI (78747) tensorflow: Output tensor[0m
+[0;32mI (78747) tensorflow: 0: 0.996094
+[0m
+[0;32mI (78747) tensorflow: 1: 0.000000
+[0m
+[0;32mI (78747) tensorflow: 2: 0.000000
+[0m
+[0;32mI (79247) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (79247) tensorflow: img_get[0m
+[0;32mI (79667) tensorflow: img_get done[0m
+[0;32mI (81457) tensorflow: Output tensor[0m
+[0;32mI (81457) tensorflow: 0: 0.031250
+[0m
+[0;32mI (81457) tensorflow: 1: 0.968750
+[0m
+[0;32mI (81457) tensorflow: 2: 0.000000
+[0m
+[0;32mI (81967) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (81967) tensorflow: img_get[0m
+[0;32mI (82377) tensorflow: img_get done[0m
+[0;32mI (84157) tensorflow: Output tensor[0m
+[0;32mI (84157) tensorflow: 0: 0.996094
+[0m
+[0;32mI (84157) tensorflow: 1: 0.000000
+[0m
+[0;32mI (84157) tensorflow: 2: 0.000000
+[0m
+[0;32mI (84657) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (84657) tensorflow: img_get[0m
+[0;32mI (85087) tensorflow: img_get done[0m
+[0;32mI (86867) tensorflow: Output tensor[0m
+[0;32mI (86867) tensorflow: 0: 0.996094
+[0m
+[0;32mI (86867) tensorflow: 1: 0.000000
+[0m
+[0;32mI (86867) tensorflow: 2: 0.000000
+[0m
+[0;32mI (87367) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (87367) tensorflow: img_get[0m
+[0;32mI (88247) tensorflow: img_get done[0m
+[0;32mI (90017) tensorflow: Output tensor[0m
+[0;32mI (90017) tensorflow: 0: 0.984375
+[0m
+[0;32mI (90017) tensorflow: 1: 0.003906
+[0m
+[0;32mI (90017) tensorflow: 2: 0.011719
+[0m
+[0;32mI (90527) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (90527) tensorflow: img_get[0m
+[0;32mI (90947) tensorflow: img_get done[0m
+[0;32mI (92727) tensorflow: Output tensor[0m
+[0;32mI (92737) tensorflow: 0: 0.984375
+[0m
+[0;32mI (92737) tensorflow: 1: 0.003906
+[0m
+[0;32mI (92737) tensorflow: 2: 0.011719
+[0m
+[0;32mI (93237) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (93237) tensorflow: img_get[0m
+[0;32mI (93657) tensorflow: img_get done[0m
+[0;32mI (95427) tensorflow: Output tensor[0m
+[0;32mI (95427) tensorflow: 0: 0.984375
+[0m
+[0;32mI (95427) tensorflow: 1: 0.003906
+[0m
+[0;32mI (95437) tensorflow: 2: 0.011719
+[0m
+[0;32mI (95937) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (95937) tensorflow: img_get[0m
+[0;32mI (96367) tensorflow: img_get done[0m
+[0;32mI (98137) tensorflow: Output tensor[0m
+[0;32mI (98137) tensorflow: 0: 0.066406
+[0m
+[0;32mI (98137) tensorflow: 1: 0.078125
+[0m
+[0;32mI (98137) tensorflow: 2: 0.855469
+[0m
+[0;32mI (98637) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (98637) tensorflow: img_get[0m
+[0;32mI (99067) tensorflow: img_get done[0m
+[0;32mI (100847) tensorflow: Output tensor[0m
+[0;32mI (100847) tensorflow: 0: 0.996094
+[0m
+[0;32mI (100847) tensorflow: 1: 0.000000
+[0m
+[0;32mI (100857) tensorflow: 2: 0.000000
+[0m
+[0;32mI (101357) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (101357) tensorflow: img_get[0m
+[0;32mI (101777) tensorflow: img_get done[0m
+[0;32mI (103547) tensorflow: Output tensor[0m
+[0;32mI (103547) tensorflow: 0: 0.996094
+[0m
+[0;32mI (103547) tensorflow: 1: 0.000000
+[0m
+[0;32mI (103557) tensorflow: 2: 0.000000
+[0m
+[0;32mI (104057) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (104057) tensorflow: img_get[0m
+[0;32mI (104707) tensorflow: img_get done[0m
+[0;32mI (106487) tensorflow: Output tensor[0m
+[0;32mI (106487) tensorflow: 0: 0.976562
+[0m
+[0;32mI (106487) tensorflow: 1: 0.023438
+[0m
+[0;32mI (106487) tensorflow: 2: 0.000000
+[0m
+[0;32mI (106997) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (106997) tensorflow: img_get[0m
+[0;32mI (107417) tensorflow: img_get done[0m
+[0;32mI (109187) tensorflow: Output tensor[0m
+[0;32mI (109187) tensorflow: 0: 0.593750
+[0m
+[0;32mI (109187) tensorflow: 1: 0.328125
+[0m
+[0;32mI (109197) tensorflow: 2: 0.078125
+[0m
+[0;32mI (109697) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (109697) tensorflow: img_get[0m
+[0;32mI (110127) tensorflow: img_get done[0m
+[0;32mI (111897) tensorflow: Output tensor[0m
+[0;32mI (111897) tensorflow: 0: 0.996094
+[0m
+[0;32mI (111897) tensorflow: 1: 0.000000
+[0m
+[0;32mI (111897) tensorflow: 2: 0.000000
+[0m
+[0;32mI (112397) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (112397) tensorflow: img_get[0m
+[0;32mI (112827) tensorflow: img_get done[0m
+[0;32mI (114607) tensorflow: Output tensor[0m
+[0;32mI (114607) tensorflow: 0: 0.996094
+[0m
+[0;32mI (114607) tensorflow: 1: 0.000000
+[0m
+[0;32mI (114607) tensorflow: 2: 0.000000
+[0m
+[0;32mI (115117) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (115117) tensorflow: img_get[0m
+[0;32mI (115537) tensorflow: img_get done[0m
+[0;32mI (117297) tensorflow: Output tensor[0m
+[0;32mI (117297) tensorflow: 0: 0.996094
+[0m
+[0;32mI (117297) tensorflow: 1: 0.000000
+[0m
+[0;32mI (117297) tensorflow: 2: 0.000000
+[0m
+[0;32mI (117797) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (117797) tensorflow: img_get[0m
+[0;32mI (118247) tensorflow: img_get done[0m
+[0;32mI (120007) tensorflow: Output tensor[0m
+[0;32mI (120007) tensorflow: 0: 0.996094
+[0m
+[0;32mI (120007) tensorflow: 1: 0.000000
+[0m
+[0;32mI (120017) tensorflow: 2: 0.000000
+[0m
+[0;32mI (120517) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (120517) tensorflow: img_get[0m
+[0;32mI (121177) tensorflow: img_get done[0m
+[0;32mI (122937) tensorflow: Output tensor[0m
+[0;32mI (122937) tensorflow: 0: 0.996094
+[0m
+[0;32mI (122937) tensorflow: 1: 0.000000
+[0m
+[0;32mI (122937) tensorflow: 2: 0.000000
+[0m
+[0;32mI (123447) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (123447) tensorflow: img_get[0m
+[0;32mI (124107) tensorflow: img_get done[0m
+[0;32mI (125877) tensorflow: Output tensor[0m
+[0;32mI (125877) tensorflow: 0: 0.996094
+[0m
+[0;32mI (125877) tensorflow: 1: 0.000000
+[0m
+[0;32mI (125877) tensorflow: 2: 0.000000
+[0m
+[0;32mI (126377) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (126377) tensorflow: img_get[0m
+[0;32mI (126817) tensorflow: img_get done[0m
+[0;32mI (128577) tensorflow: Output tensor[0m
+[0;32mI (128577) tensorflow: 0: 0.996094
+[0m
+[0;32mI (128577) tensorflow: 1: 0.000000
+[0m
+[0;32mI (128577) tensorflow: 2: 0.000000
+[0m
+[0;32mI (129077) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (129077) tensorflow: img_get[0m
+[0;32mI (129747) tensorflow: img_get done[0m
+[0;32mI (131507) tensorflow: Output tensor[0m
+[0;32mI (131507) tensorflow: 0: 0.996094
+[0m
+[0;32mI (131507) tensorflow: 1: 0.000000
+[0m
+[0;32mI (131507) tensorflow: 2: 0.000000
+[0m
+[0;32mI (132017) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (132017) tensorflow: img_get[0m
+[0;32mI (132457) tensorflow: img_get done[0m
+[0;32mI (134217) tensorflow: Output tensor[0m
+[0;32mI (134217) tensorflow: 0: 0.996094
+[0m
+[0;32mI (134227) tensorflow: 1: 0.000000
+[0m
+[0;32mI (134227) tensorflow: 2: 0.000000
+[0m
+[0;32mI (134727) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (134727) tensorflow: img_get[0m
+[0;32mI (135387) tensorflow: img_get done[0m
+[0;32mI (137147) tensorflow: Output tensor[0m
+[0;32mI (137147) tensorflow: 0: 0.996094
+[0m
+[0;32mI (137147) tensorflow: 1: 0.000000
+[0m
+[0;32mI (137147) tensorflow: 2: 0.000000
+[0m
+[0;32mI (137657) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (137657) tensorflow: img_get[0m
+[0;32mI (138097) tensorflow: img_get done[0m
+[0;32mI (139857) tensorflow: Output tensor[0m
+[0;32mI (139857) tensorflow: 0: 0.996094
+[0m
+[0;32mI (139857) tensorflow: 1: 0.000000
+[0m
+[0;32mI (139867) tensorflow: 2: 0.000000
+[0m
+[0;32mI (140367) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (140367) tensorflow: img_get[0m
+[0;32mI (141027) tensorflow: img_get done[0m
+[0;32mI (142787) tensorflow: Output tensor[0m
+[0;32mI (142787) tensorflow: 0: 0.996094
+[0m
+[0;32mI (142787) tensorflow: 1: 0.000000
+[0m
+[0;32mI (142787) tensorflow: 2: 0.000000
+[0m
+[0;32mI (143287) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (143287) tensorflow: img_get[0m
+[0;32mI (143737) tensorflow: img_get done[0m
+[0;32mI (145497) tensorflow: Output tensor[0m
+[0;32mI (145497) tensorflow: 0: 0.996094
+[0m
+[0;32mI (145497) tensorflow: 1: 0.000000
+[0m
+[0;32mI (145507) tensorflow: 2: 0.000000
+[0m
+[0;32mI (146007) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (146007) tensorflow: img_get[0m
+[0;32mI (146667) tensorflow: img_get done[0m
+[0;32mI (148427) tensorflow: Output tensor[0m
+[0;32mI (148427) tensorflow: 0: 0.996094
+[0m
+[0;32mI (148427) tensorflow: 1: 0.000000
+[0m
+[0;32mI (148427) tensorflow: 2: 0.000000
+[0m
+[0;32mI (148927) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (148927) tensorflow: img_get[0m
+[0;32mI (149377) tensorflow: img_get done[0m
+[0;32mI (151137) tensorflow: Output tensor[0m
+[0;32mI (151137) tensorflow: 0: 0.996094
+[0m
+[0;32mI (151137) tensorflow: 1: 0.000000
+[0m
+[0;32mI (151137) tensorflow: 2: 0.000000
+[0m
+[0;32mI (151637) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (151637) tensorflow: img_get[0m
+[0;32mI (152307) tensorflow: img_get done[0m
+[0;32mI (154067) tensorflow: Output tensor[0m
+[0;32mI (154067) tensorflow: 0: 0.996094
+[0m
+[0;32mI (154077) tensorflow: 1: 0.000000
+[0m
+[0;32mI (154077) tensorflow: 2: 0.000000
+[0m
+[0;32mI (154577) tensorflow: Running TensorFlow Lite Micro model...[0m
+[0;32mI (154577) tensorflow: img_get[0m
+[0;32mI (155237) tensorflow: img_get done[0m
+[0;32mI (156997) tensorflow: Output tensor[0m
+[0;32mI (156997) tensorflow: 0: 0.996094
+[0m
+[0;32mI (156997) tensorflow: 1: 0.000000
+[0m
+[0;32mI (156997) tensorflow: 2: 0.000000
+[0m

@@ -1,0 +1,70 @@
+[1/5] cd /home/vl/esp32/project_my/esp32s3_lvgl/build/esp-idf/esptool_py && /home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/vl/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/vl/esp32/project_my/esp32s3_lvgl/build/partition_table/partition-table.bin /home/vl/esp32/project_my/esp32s3_lvgl/build/esp32s3_lvgl.bin
+esp32s3_lvgl.bin binary size 0xb65b0 bytes. Smallest app partition is 0x800000 bytes. 0x749a50 bytes (91%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /home/vl/esp32/project_my/esp32s3_lvgl/build/bootloader/esp-idf/esptool_py && /home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/vl/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/vl/esp32/project_my/esp32s3_lvgl/build/bootloader/bootloader.bin
+Bootloader binary size 0x5240 bytes. 0x2dc0 bytes (36%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] cd /home/vl/esp32/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/vl/esp32/esp-idf -D "SERIAL_TOOL=/home/vl/.espressif/python_env/idf5.2_py3.12_env/bin/python;;/home/vl/esp32/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/vl/esp32/project_my/esp32s3_lvgl/build -P /home/vl/esp32/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 16MB 0x0 bootloader/bootloader.bin 0x10000 esp32s3_lvgl.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port /dev/ttyACM0
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 30:ed:a0:29:9f:94
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x000c6fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 21056 bytes to 13064...
+Writing at 0x00000000... (100 %)
+Wrote 21056 bytes (13064 compressed) at 0x00000000 in 0.4 seconds (effective 400.9 kbit/s)...
+Hash of data verified.
+Compressed 746928 bytes to 477581...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001d47c... (6 %)
+Writing at 0x00025d04... (10 %)
+Writing at 0x0002e60d... (13 %)
+Writing at 0x0003360b... (16 %)
+Writing at 0x00039a31... (20 %)
+Writing at 0x0003fdc4... (23 %)
+Writing at 0x000455de... (26 %)
+Writing at 0x0004b240... (30 %)
+Writing at 0x00051652... (33 %)
+Writing at 0x000570e1... (36 %)
+Writing at 0x0005cd0c... (40 %)
+Writing at 0x00062721... (43 %)
+Writing at 0x000679f9... (46 %)
+Writing at 0x0006cb6c... (50 %)
+Writing at 0x000722d1... (53 %)
+Writing at 0x00077d06... (56 %)
+Writing at 0x0007f692... (60 %)
+Writing at 0x000861c6... (63 %)
+Writing at 0x0008d2f4... (66 %)
+Writing at 0x000954de... (70 %)
+Writing at 0x0009afc6... (73 %)
+Writing at 0x0009f0be... (76 %)
+Writing at 0x000a3188... (80 %)
+Writing at 0x000a7226... (83 %)
+Writing at 0x000ab2c6... (86 %)
+Writing at 0x000b1e88... (90 %)
+Writing at 0x000b8857... (93 %)
+Writing at 0x000be944... (96 %)
+Writing at 0x000c52b2... (100 %)
+Wrote 746928 bytes (477581 compressed) at 0x00010000 in 6.0 seconds (effective 989.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.1 seconds (effective 390.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
