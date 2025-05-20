@@ -2,7 +2,9 @@
 
 芯片运行基于esp-idf，运行tensorflow lite使用的是官方的依赖ESP-TFLITE-MICRO，目前网上的教程比较少，我会介绍一下关键的步骤和大致流程。
 
-一.在tensorflow里，这里使用的是vgg16经典模型，详细代码见[tensorflow-lite.ipynb](https://github.com/learae/esp32-s3-tensorflow/blob/main/tensorflow-lite.ipynb)
+#一.tensorflow部分
+
+这里使用的是vgg16经典模型，详细代码见[tensorflow-lite.ipynb](https://github.com/learae/esp32-s3-tensorflow/blob/main/tensorflow-lite.ipynb)
 
 //应用量化感知训练
 
@@ -26,7 +28,9 @@
 
 至此，tflite模型已经准备就绪，接下来介绍在esp-idf中的关键步骤
 
-二. 在esp-idf工程中添加esp-tflite-micro依赖，具体操作如下
+#二. 在esp-idf工程中
+
+添加esp-tflite-micro依赖，具体操作如下
 
 	idf.py add-dependency “espressif/esp-tflite-micro^1.3.1”
 
