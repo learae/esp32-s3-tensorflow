@@ -96,7 +96,7 @@ namespace {
 
 	input = interpreter->input(0);//0用于检查输入数据是否为空，如果输入数据的长度确定，也可以数据长度
 
-//以上包括步骤一到五一般在初始化中完成
+//以上包括步骤一到五一般在初始化中完成，在这里传入的数据必须和tensorflow里训练时的一致。
 
 	if (input->type == kTfLiteFloat32) {
 	
