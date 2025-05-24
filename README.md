@@ -36,7 +36,7 @@
 https://components.espressif.com/components/espressif/esp-tflite-micro/versions/1.3.1?language=en 在乐鑫官网也有具体操作
 
 
-定义模型，解释器，模型输入，输出，内存缓冲区和张量竞技场
+定义tflite模型，解释器，张量输入指针，张量输出指针，张量竞技场
 
 namespace {
 
@@ -68,7 +68,7 @@ namespace {
 
 	model = tflite::GetModel(model_tflite);
 
-步骤二：为张量竞技场tensor_arena分配内存，内存大小最少为单张图片大小加算子大小，同样建议定义在SPIRAM里面
+步骤二：为tensor_arena分配内存，内存大小最少为单张图片大小加算子大小，同样建议定义在SPIRAM里面
 
 	tensor_arena = (uint8_t *) heap_caps_malloc(kTensorArenaSize, MALLOC_CAP_SPIRAM | MALLOC_CAP_8BIT);
 
